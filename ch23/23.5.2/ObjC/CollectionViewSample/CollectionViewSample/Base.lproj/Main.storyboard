@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="k7V-Zd-yqa">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="k1o-kl-TcL">
+            <objects>
+                <collectionViewController id="k7V-Zd-yqa" customClass="ViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="NBd-iG-J7K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GYl-N7-PQc">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="B3B-XE-Zw5" customClass="Cell">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b75-lx-TGS">
+                                            <rect key="frame" x="25" y="15" width="101" height="101"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XS9-wp-5Wn">
+                                            <rect key="frame" x="59" y="121" width="33" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="XS9-wp-5Wn" firstAttribute="top" secondItem="b75-lx-TGS" secondAttribute="bottom" constant="5" id="1og-FW-4Td"/>
+                                    <constraint firstItem="XS9-wp-5Wn" firstAttribute="centerX" secondItem="b75-lx-TGS" secondAttribute="centerX" id="AH2-Ce-STv"/>
+                                    <constraint firstItem="b75-lx-TGS" firstAttribute="leading" secondItem="B3B-XE-Zw5" secondAttribute="leadingMargin" constant="17" id="LqO-OA-csr"/>
+                                    <constraint firstItem="b75-lx-TGS" firstAttribute="centerX" secondItem="B3B-XE-Zw5" secondAttribute="centerX" id="hUm-uo-nbm"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="XS9-wp-5Wn" secondAttribute="bottom" constant="5" id="j6z-rZ-GST"/>
+                                    <constraint firstItem="b75-lx-TGS" firstAttribute="top" secondItem="B3B-XE-Zw5" secondAttribute="topMargin" constant="7" id="wTw-1G-GRZ"/>
+                                </constraints>
+                                <size key="customSize" width="150" height="150"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LqO-OA-csr"/>
+                                        <exclude reference="hUm-uo-nbm"/>
+                                        <exclude reference="wTw-1G-GRZ"/>
+                                        <exclude reference="1og-FW-4Td"/>
+                                        <exclude reference="AH2-Ce-STv"/>
+                                        <exclude reference="j6z-rZ-GST"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LqO-OA-csr"/>
+                                        <include reference="hUm-uo-nbm"/>
+                                        <include reference="wTw-1G-GRZ"/>
+                                        <include reference="1og-FW-4Td"/>
+                                        <include reference="AH2-Ce-STv"/>
+                                        <include reference="j6z-rZ-GST"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="imageView" destination="b75-lx-TGS" id="neM-8y-BlO"/>
+                                    <outlet property="label" destination="XS9-wp-5Wn" id="bWL-xZ-3cx"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="k7V-Zd-yqa" id="0kZ-5o-jcP"/>
+                            <outlet property="delegate" destination="k7V-Zd-yqa" id="U3v-U0-96p"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLb-pI-And" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="366"/>
+        </scene>
+    </scenes>
+</document>

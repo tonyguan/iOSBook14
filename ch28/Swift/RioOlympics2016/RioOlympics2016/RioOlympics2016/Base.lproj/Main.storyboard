@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="HomeViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home-bg" translatesAutoresizingMaskIntoConstraints="NO" id="kIb-Tp-ouL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kIb-Tp-ouL" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="IXI-9f-GrF"/>
+                            <constraint firstItem="kIb-Tp-ouL" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="bvP-aS-q10"/>
+                            <constraint firstAttribute="trailing" secondItem="kIb-Tp-ouL" secondAttribute="trailing" id="cCR-zF-prx"/>
+                            <constraint firstItem="kIb-Tp-ouL" firstAttribute="bottom" secondItem="4ug-Mw-9AY" secondAttribute="top" id="pQP-d9-Cge"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home-TabBarIcon" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="595" y="-362"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="KpO-H2-kud">
+            <objects>
+                <collectionViewController id="LMx-Hm-V6d" customClass="EventsViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="qje-9u-S0F">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="7" minimumInteritemSpacing="9" id="Lft-k3-nex">
+                            <size key="itemSize" width="106" height="106"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="50" minY="10" maxX="40" maxY="8"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="D1x-xO-cMD" customClass="EventsViewCell" customModule="RioOlympics2016" customModuleProvider="target">
+                                <rect key="frame" x="50" y="74" width="106" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jlg-Qr-pFt">
+                                            <rect key="frame" x="2" y="2" width="102" height="102"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="imageView" destination="jlg-Qr-pFt" id="VaV-Bk-gPj"/>
+                                    <segue destination="c6m-C3-gT6" kind="show" identifier="showDetail" id="0lO-B7-9Re"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="LMx-Hm-V6d" id="tTh-hc-o7x"/>
+                            <outlet property="delegate" destination="LMx-Hm-V6d" id="cuW-gB-eeT"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Events" id="f5Z-gl-s31"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="InA-pY-Bkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2006" y="201"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="AboutViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About-bg" translatesAutoresizingMaskIntoConstraints="NO" id="QX5-nx-Sv1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QX5-nx-Sv1" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="WGO-Mi-QaR"/>
+                            <constraint firstItem="QX5-nx-Sv1" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="ZvA-St-lZi"/>
+                            <constraint firstAttribute="trailing" secondItem="QX5-nx-Sv1" secondAttribute="trailing" id="jDd-rT-NBh"/>
+                            <constraint firstItem="QX5-nx-Sv1" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="qBU-Vv-Ceg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="About-TabBarIcon" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-991" y="1486"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="aX0-2z-K2v" kind="relationship" relationship="viewControllers" id="Q3j-RX-3oT"/>
+                        <segue destination="w2Y-HP-uWd" kind="relationship" relationship="viewControllers" id="zgj-nT-bg8"/>
+                        <segue destination="i1f-39-dRV" kind="relationship" relationship="viewControllers" id="31E-78-zID"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-628" y="128"/>
+        </scene>
+        <!--Events Detail View Controller-->
+        <scene sceneID="4gp-Za-p9l">
+            <objects>
+                <viewController id="c6m-C3-gT6" customClass="EventsDetailViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TPy-l2-blE"/>
+                        <viewControllerLayoutGuide type="bottom" id="EVe-Or-fmN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5JC-IB-LdP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lJ-zC-fbs">
+                                <rect key="frame" x="34" y="313" width="549" height="93"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="EiT-ei-B0H"/>
+                                </constraints>
+                                <string key="text">The object of the sport is simple: to shoot arrows as close to the centre of a target as possible. Olympic Archery targets are 122 centimetres in diameter, with the gold ring at the centre (worth a maximum 10 points) measuring just 12.2cm. Archers shoot at the target from a distance of 70 metres. At the Olympic Games, the two individual Archery competitions (one for men, one for women) will be played in a knockout format. Matches will be played over the best of five sets, with each set consisting of three arrows per archer. The winners of each match will qualify for the next round, until the last two archers go head to head in the gold medal match. A knockout format will also be used for the men’s and women’s team competitions, which features teams of three archers competing against each other in a best-of-24-arrows format.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05q-XE-teB">
+                                <rect key="frame" x="32" y="439" width="534" height="120"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4NX-Zt-bUb"/>
+                                </constraints>
+                                <string key="text">Archery made its Olympic debut at Paris 1900, was dropped from the programme after the 1908 Games, and then returned for a single appearance in 1920. After a 52-year gap, the sport was reintroduced at Munich 1972 and has remained on the Olympic programme ever since. For London 2012, the Archery competition will connect the old with the new at Lord’s Cricket Ground. During the knockout phase, archers will shoot from in front of the 19th-century Pavilion across the hallowed cricket square towards the modern Media Centre.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="archery.gif" translatesAutoresizingMaskIntoConstraints="NO" id="PhA-5g-iD9">
+                                <rect key="frame" x="32" y="72" width="115" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="zIs-M8-glo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Olympic past and present" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="18" preferredMaxLayoutWidth="272" translatesAutoresizingMaskIntoConstraints="NO" id="OGd-D1-hi2">
+                                <rect key="frame" x="36" y="401" width="272" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="272" id="NPC-mQ-8ws"/>
+                                    <constraint firstAttribute="height" constant="51" id="mwC-oz-ZIy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k67-92-pHJ">
+                                <rect key="frame" x="32" y="188" width="553" height="93"/>
+                                <color key="backgroundColor" red="1" green="0.97510601649999995" blue="0.96406502660000004" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="8VJ-Ds-jl8"/>
+                                </constraints>
+                                <string key="text">Archery dates back around 10,000 years, when bows and arrows were first used for hunting and warfare, before it developed as a competitive activity in medieval England. A tense and testing sport that requires immense reserves of skill and nerve, Archery is now practised in more than 140 countries around the world.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Archery" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="20" preferredMaxLayoutWidth="172" translatesAutoresizingMaskIntoConstraints="NO" id="n3i-SP-EVj">
+                                <rect key="frame" x="155" y="128" width="261" height="45"/>
+                                <color key="backgroundColor" red="0.51554528060000004" green="0.51554528060000004" blue="0.51554528060000004" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="fGO-4D-Yc5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The Basics" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="gsI-Y1-3GV">
+                                <rect key="frame" x="36" y="289" width="221" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="t4g-8z-gZG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="k67-92-pHJ" secondAttribute="trailing" constant="-5" id="4QT-EK-IUO"/>
+                            <constraint firstItem="7lJ-zC-fbs" firstAttribute="top" secondItem="gsI-Y1-3GV" secondAttribute="bottom" constant="-1" id="64g-67-oRs"/>
+                            <constraint firstItem="PhA-5g-iD9" firstAttribute="leading" secondItem="5JC-IB-LdP" secondAttribute="leadingMargin" constant="12" id="7dP-CL-th9"/>
+                            <constraint firstItem="gsI-Y1-3GV" firstAttribute="leading" secondItem="5JC-IB-LdP" secondAttribute="leadingMargin" constant="16" id="ArZ-Mo-EYY"/>
+                            <constraint firstItem="OGd-D1-hi2" firstAttribute="top" secondItem="7lJ-zC-fbs" secondAttribute="bottom" constant="-5" id="AzI-D3-5SG"/>
+                            <constraint firstItem="n3i-SP-EVj" firstAttribute="top" secondItem="TPy-l2-blE" secondAttribute="bottom" constant="64" id="DsQ-NT-x0v"/>
+                            <constraint firstItem="OGd-D1-hi2" firstAttribute="leading" secondItem="gsI-Y1-3GV" secondAttribute="leading" id="HMw-3N-GJn"/>
+                            <constraint firstItem="n3i-SP-EVj" firstAttribute="leading" secondItem="PhA-5g-iD9" secondAttribute="trailing" constant="8" symbolic="YES" id="KjA-sL-RoW"/>
+                            <constraint firstItem="k67-92-pHJ" firstAttribute="leading" secondItem="5JC-IB-LdP" secondAttribute="leadingMargin" constant="12" id="R4P-Xo-Shl"/>
+                            <constraint firstItem="gsI-Y1-3GV" firstAttribute="top" secondItem="k67-92-pHJ" secondAttribute="bottom" constant="8" id="RQO-jf-lqm"/>
+                            <constraint firstItem="05q-XE-teB" firstAttribute="top" secondItem="OGd-D1-hi2" secondAttribute="bottom" constant="-13" id="VHy-Yw-rNQ"/>
+                            <constraint firstItem="7lJ-zC-fbs" firstAttribute="leading" secondItem="5JC-IB-LdP" secondAttribute="leadingMargin" constant="14" id="YOv-9j-rkc"/>
+                            <constraint firstItem="05q-XE-teB" firstAttribute="leading" secondItem="5JC-IB-LdP" secondAttribute="leadingMargin" constant="12" id="gM2-RZ-RLa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="05q-XE-teB" secondAttribute="trailing" constant="14" id="nvA-lG-HcY"/>
+                            <constraint firstItem="k67-92-pHJ" firstAttribute="top" secondItem="PhA-5g-iD9" secondAttribute="bottom" constant="8" id="ql4-aO-ue1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7lJ-zC-fbs" secondAttribute="trailing" constant="-3" id="rIo-fo-FdQ"/>
+                            <constraint firstItem="PhA-5g-iD9" firstAttribute="top" secondItem="TPy-l2-blE" secondAttribute="bottom" constant="8" symbolic="YES" id="sU6-bx-84G"/>
+                            <constraint firstItem="k67-92-pHJ" firstAttribute="top" secondItem="n3i-SP-EVj" secondAttribute="bottom" constant="15" id="uaj-Rz-QAN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgEventIcon" destination="PhA-5g-iD9" id="Voc-tj-NSg"/>
+                        <outlet property="lblEventName" destination="n3i-SP-EVj" id="8Na-PF-5Ux"/>
+                        <outlet property="txtViewBasicsInfo" destination="7lJ-zC-fbs" id="2Bz-d1-qQo"/>
+                        <outlet property="txtViewKeyInfo" destination="k67-92-pHJ" id="qFe-gQ-oBw"/>
+                        <outlet property="txtViewOlympicInfo" destination="05q-XE-teB" id="VKR-bD-WhM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RP1-aR-EOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2674" y="214"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="Kir-cu-TOq">
+            <objects>
+                <tableViewController id="0NJ-qF-WFq" customClass="ScheduleViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="OS2-GF-xmD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="oft-9k-8OC" detailTextLabel="e5o-OH-D4Z" style="IBUITableViewCellStyleValue1" id="8vD-jm-H2F">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8vD-jm-H2F" id="V6D-AY-YeS">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oft-9k-8OC">
+                                            <rect key="frame" x="15" y="12" width="32" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e5o-OH-D4Z">
+                                            <rect key="frame" x="543" y="12" width="42" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0NJ-qF-WFq" id="gIh-uo-MI9"/>
+                            <outlet property="delegate" destination="0NJ-qF-WFq" id="ZHQ-GY-a56"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Schedule" id="VxO-sh-Gg4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAF-Vy-6Z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="1015"/>
+        </scene>
+        <!--CountDown-->
+        <scene sceneID="y1K-Oj-sON">
+            <objects>
+                <viewController id="i1f-39-dRV" customClass="CountDownViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eqz-6f-XKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="HZf-TB-Bln"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KuF-9t-6jD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CountDown-bg" translatesAutoresizingMaskIntoConstraints="NO" id="uQO-3h-IOc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6f-wc-xgB">
+                                <rect key="frame" x="243" y="92" width="114" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="T7A-1b-YGM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z6f-wc-xgB" firstAttribute="top" secondItem="eqz-6f-XKe" secondAttribute="bottom" constant="72" id="EbH-bL-KZW"/>
+                            <constraint firstItem="uQO-3h-IOc" firstAttribute="top" secondItem="KuF-9t-6jD" secondAttribute="top" id="cHb-zj-hfw"/>
+                            <constraint firstItem="uQO-3h-IOc" firstAttribute="leading" secondItem="KuF-9t-6jD" secondAttribute="leading" id="cit-3D-oER"/>
+                            <constraint firstItem="HZf-TB-Bln" firstAttribute="top" secondItem="z6f-wc-xgB" secondAttribute="bottom" constant="415" id="gzA-WN-nXZ"/>
+                            <constraint firstItem="uQO-3h-IOc" firstAttribute="bottom" secondItem="HZf-TB-Bln" secondAttribute="top" id="jf7-Sz-8Sc"/>
+                            <constraint firstItem="z6f-wc-xgB" firstAttribute="centerX" secondItem="uQO-3h-IOc" secondAttribute="centerX" id="pxv-z4-dn9"/>
+                            <constraint firstAttribute="trailing" secondItem="uQO-3h-IOc" secondAttribute="trailing" id="qei-2Z-JJM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CountDown" image="CountDown-TabBarIcon" id="vkU-MU-Oj3"/>
+                    <connections>
+                        <outlet property="lblCountDown" destination="z6f-wc-xgB" id="oys-Ga-aLB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VHd-1J-9wA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="1768"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="mfa-Rw-EKI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w2Y-HP-uWd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedule" image="Schedule-TabBarIcon" id="RFo-SR-uou"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="R7d-V2-c29"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dS5-zM-vAI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0NJ-qF-WFq" kind="relationship" relationship="rootViewController" id="Tgy-bD-Yia"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1o-qD-u7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="483" y="1015"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="XC9-qe-dJb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aX0-2z-K2v" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" image="Events-TabBarIcon" id="CDN-wR-KJP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mfx-lp-69m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LMx-Hm-V6d" kind="relationship" relationship="rootViewController" id="d8O-Qm-s9B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V3H-f2-57c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="214"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="About-TabBarIcon" width="30" height="30"/>
+        <image name="About-bg" width="320" height="480"/>
+        <image name="CountDown-TabBarIcon" width="30" height="30"/>
+        <image name="CountDown-bg" width="320" height="480"/>
+        <image name="Events-TabBarIcon" width="30" height="30"/>
+        <image name="Home-TabBarIcon" width="30" height="30"/>
+        <image name="Home-bg" width="320" height="480"/>
+        <image name="Schedule-TabBarIcon" width="30" height="30"/>
+        <image name="archery.gif" width="108" height="108"/>
+    </resources>
+</document>

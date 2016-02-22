@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="NibLazyLoadDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主视图" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGx-kg-mqK">
+                    <rect key="frame" x="260" y="179" width="81" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="81" id="Fc5-0j-der"/>
+                        <constraint firstAttribute="width" constant="152" id="K7I-dg-bzf"/>
+                        <constraint firstAttribute="height" constant="44" id="Ons-Mj-NlR"/>
+                        <constraint firstAttribute="height" constant="44" id="TdK-ls-ZSu"/>
+                        <constraint firstAttribute="width" constant="81" id="yUi-3w-3WD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Fc5-0j-der"/>
+                            <exclude reference="K7I-dg-bzf"/>
+                            <exclude reference="TdK-ls-ZSu"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Fc5-0j-der"/>
+                            <include reference="TdK-ls-ZSu"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="K7I-dg-bzf"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2JX-Vs-WBR">
+                    <rect key="frame" x="531" y="534" width="22" height="22"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showInfo:" destination="-1" eventType="touchUpInside" id="a5B-rq-7mT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2JX-Vs-WBR" secondAttribute="trailing" constant="47" id="8Wk-mG-mB5"/>
+                <constraint firstAttribute="bottom" secondItem="2JX-Vs-WBR" secondAttribute="bottom" constant="44" id="9g1-eB-XSe"/>
+                <constraint firstItem="mGx-kg-mqK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HQ9-7h-6rq"/>
+                <constraint firstItem="mGx-kg-mqK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="179" id="xzr-k7-tLJ"/>
+            </constraints>
+            <point key="canvasLocation" x="370" y="366"/>
+        </view>
+    </objects>
+</document>

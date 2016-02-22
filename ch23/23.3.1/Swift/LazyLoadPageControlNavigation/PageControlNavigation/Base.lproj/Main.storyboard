@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PageControlNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcp-fZ-WGI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="nFh-6m-seR">
+                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                                <connections>
+                                    <action selector="changePage:" destination="vXZ-lx-hvc" eventType="valueChanged" id="WoE-If-O34"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Rcp-fZ-WGI" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="8yo-g7-TJZ"/>
+                            <constraint firstItem="Rcp-fZ-WGI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="OD6-jB-TCy"/>
+                            <constraint firstItem="nFh-6m-seR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="34" id="a4y-0G-Uog"/>
+                            <constraint firstItem="nFh-6m-seR" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="aAV-sB-E1V"/>
+                            <constraint firstAttribute="trailing" secondItem="Rcp-fZ-WGI" secondAttribute="trailing" id="e9q-Go-NyQ"/>
+                            <constraint firstItem="Rcp-fZ-WGI" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="g8t-Kx-aZ4"/>
+                            <constraint firstItem="Rcp-fZ-WGI" firstAttribute="centerX" secondItem="nFh-6m-seR" secondAttribute="centerX" id="wTt-jM-cQ9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Rcp-fZ-WGI"/>
+                                <exclude reference="nFh-6m-seR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="a4y-0G-Uog"/>
+                                <exclude reference="aAV-sB-E1V"/>
+                                <exclude reference="8yo-g7-TJZ"/>
+                                <exclude reference="OD6-jB-TCy"/>
+                                <exclude reference="e9q-Go-NyQ"/>
+                                <exclude reference="g8t-Kx-aZ4"/>
+                                <exclude reference="wTt-jM-cQ9"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Rcp-fZ-WGI"/>
+                                <include reference="nFh-6m-seR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="a4y-0G-Uog"/>
+                                <include reference="aAV-sB-E1V"/>
+                                <include reference="8yo-g7-TJZ"/>
+                                <include reference="OD6-jB-TCy"/>
+                                <include reference="e9q-Go-NyQ"/>
+                                <include reference="g8t-Kx-aZ4"/>
+                                <include reference="wTt-jM-cQ9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="pageControl" destination="nFh-6m-seR" id="XMm-29-302"/>
+                        <outlet property="scrollView" destination="Rcp-fZ-WGI" id="M9E-0I-YK5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528" y="388"/>
+        </scene>
+    </scenes>
+</document>

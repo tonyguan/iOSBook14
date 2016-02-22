@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Notes>
+    <Note id="1">
+        <CDate>2015-12-21</CDate>
+        <Content>早上8点钟到公司</Content>
+        <UserID>tony</UserID>
+    </Note>
+    <Note id="2">
+        <CDate>2015-12-22</CDate>
+        <Content>发布iOSBook1</Content>
+        <UserID>tony</UserID>
+    </Note>
+    <Note id="3">
+        <CDate>2015-12-23</CDate>
+        <Content>发布iOSBook2</Content>
+        <UserID>tony</UserID>
+    </Note>
+    <Note id="4">
+        <CDate>2015-12-24</CDate>
+        <Content>发布iOSBook3</Content>
+        <UserID>tony</UserID>
+    </Note>
+    <Note id="5">
+        <CDate>2015-12-25</CDate>
+        <Content>发布2016奥运会应用iPhone版本</Content>
+        <UserID>tony</UserID>
+    </Note>
+    <Note id="6">
+        <CDate>2015-12-26</CDate>
+        <Content>发布2016奥运会应用iPad版本</Content>
+        <UserID>tony</UserID>
+    </Note>
+</Notes>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MyGeoPosition.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <wpt lat="40.002240" lon="116.323328">
+        <name>中国北京 东城区北京站东街北京 邮政编码: 100005</name>
+        <src>MyGeoPosition.com</src>
+        <link>http://mygeoposition.com</link>
+    </wpt>
+</gpx>

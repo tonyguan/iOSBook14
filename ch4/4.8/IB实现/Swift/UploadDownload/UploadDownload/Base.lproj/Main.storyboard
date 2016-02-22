@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UploadDownload" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="CUO-fu-HMY">
+                                <rect key="frame" x="282" y="84" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqC-a1-9l9">
+                                <rect key="frame" x="68" y="299" width="465" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWm-ft-mDT">
+                                <rect key="frame" x="275" y="190" width="50" height="30"/>
+                                <state key="normal" title="Upload">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startToMove:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XnD-m4-f9h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0p7-FR-zXy">
+                                <rect key="frame" x="266" y="416" width="69" height="30"/>
+                                <state key="normal" title="Download">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="downloadProgress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uko-jm-Glh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CUO-fu-HMY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="64" id="3Xd-Xf-R6h"/>
+                            <constraint firstItem="UWm-ft-mDT" firstAttribute="centerX" secondItem="bqC-a1-9l9" secondAttribute="centerX" id="3sW-vn-r7B"/>
+                            <constraint firstItem="bqC-a1-9l9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="48" id="ShZ-gF-nK5"/>
+                            <constraint firstItem="CUO-fu-HMY" firstAttribute="centerX" secondItem="bqC-a1-9l9" secondAttribute="centerX" id="SqG-6H-39P"/>
+                            <constraint firstItem="CUO-fu-HMY" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="XNT-jZ-MRx"/>
+                            <constraint firstItem="UWm-ft-mDT" firstAttribute="top" secondItem="CUO-fu-HMY" secondAttribute="bottom" constant="69" id="bYW-rB-OTp"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="0p7-FR-zXy" secondAttribute="bottom" constant="154" id="it4-Jb-pCb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bqC-a1-9l9" secondAttribute="trailing" constant="47" id="jP1-qy-zuf"/>
+                            <constraint firstItem="bqC-a1-9l9" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="pwC-Pq-0mZ"/>
+                            <constraint firstItem="0p7-FR-zXy" firstAttribute="centerX" secondItem="bqC-a1-9l9" secondAttribute="centerX" id="seh-0v-3b6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="CUO-fu-HMY" id="JP4-xg-UK6"/>
+                        <outlet property="progressView" destination="bqC-a1-9l9" id="xUj-Gx-jvW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="399"/>
+        </scene>
+    </scenes>
+</document>

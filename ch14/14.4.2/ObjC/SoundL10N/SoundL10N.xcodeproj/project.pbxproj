@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4897711C40AB99004ED320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897701C40AB99004ED320 /* main.m */; };
+		EA4897741C40AB99004ED320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897731C40AB99004ED320 /* AppDelegate.m */; };
+		EA4897771C40AB99004ED320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897761C40AB99004ED320 /* ViewController.m */; };
+		EA48977A1C40AB99004ED320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4897781C40AB99004ED320 /* Main.storyboard */; };
+		EA48977C1C40AB99004ED320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA48977B1C40AB99004ED320 /* Assets.xcassets */; };
+		EA48977F1C40AB99004ED320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA48977D1C40AB99004ED320 /* LaunchScreen.storyboard */; };
+		EA48978A1C40ABC5004ED320 /* background1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EA48978C1C40ABC5004ED320 /* background1.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA48976C1C40AB99004ED320 /* SoundL10N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundL10N.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4897701C40AB99004ED320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA4897721C40AB99004ED320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA4897731C40AB99004ED320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA4897751C40AB99004ED320 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA4897761C40AB99004ED320 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA4897791C40AB99004ED320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA48977B1C40AB99004ED320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA48977E1C40AB99004ED320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4897801C40AB99004ED320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4897861C40ABA7004ED320 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EA4897871C40ABA7004ED320 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EA48978B1C40ABC5004ED320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = Base; path = Base.lproj/background1.aiff; sourceTree = "<group>"; };
+		EA48978D1C40ABC6004ED320 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = en; path = en.lproj/background1.aiff; sourceTree = "<group>"; };
+		EA48978E1C40ABC6004ED320 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "zh-Hans"; path = "zh-Hans.lproj/background1.aiff"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4897691C40AB99004ED320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4897631C40AB99004ED320 = {
+			isa = PBXGroup;
+			children = (
+				EA48976E1C40AB99004ED320 /* SoundL10N */,
+				EA48976D1C40AB99004ED320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA48976D1C40AB99004ED320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA48976C1C40AB99004ED320 /* SoundL10N.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA48976E1C40AB99004ED320 /* SoundL10N */ = {
+			isa = PBXGroup;
+			children = (
+				EA48978C1C40ABC5004ED320 /* background1.aiff */,
+				EA4897721C40AB99004ED320 /* AppDelegate.h */,
+				EA4897731C40AB99004ED320 /* AppDelegate.m */,
+				EA4897751C40AB99004ED320 /* ViewController.h */,
+				EA4897761C40AB99004ED320 /* ViewController.m */,
+				EA4897781C40AB99004ED320 /* Main.storyboard */,
+				EA48977B1C40AB99004ED320 /* Assets.xcassets */,
+				EA48977D1C40AB99004ED320 /* LaunchScreen.storyboard */,
+				EA4897801C40AB99004ED320 /* Info.plist */,
+				EA48976F1C40AB99004ED320 /* Supporting Files */,
+			);
+			path = SoundL10N;
+			sourceTree = "<group>";
+		};
+		EA48976F1C40AB99004ED320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4897701C40AB99004ED320 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA48976B1C40AB99004ED320 /* SoundL10N */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4897831C40AB99004ED320 /* Build configuration list for PBXNativeTarget "SoundL10N" */;
+			buildPhases = (
+				EA4897681C40AB99004ED320 /* Sources */,
+				EA4897691C40AB99004ED320 /* Frameworks */,
+				EA48976A1C40AB99004ED320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundL10N;
+			productName = SoundL10N;
+			productReference = EA48976C1C40AB99004ED320 /* SoundL10N.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4897641C40AB99004ED320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EA48976B1C40AB99004ED320 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA4897671C40AB99004ED320 /* Build configuration list for PBXProject "SoundL10N" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = EA4897631C40AB99004ED320;
+			productRefGroup = EA48976D1C40AB99004ED320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA48976B1C40AB99004ED320 /* SoundL10N */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA48976A1C40AB99004ED320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA48977F1C40AB99004ED320 /* LaunchScreen.storyboard in Resources */,
+				EA48978A1C40ABC5004ED320 /* background1.aiff in Resources */,
+				EA48977C1C40AB99004ED320 /* Assets.xcassets in Resources */,
+				EA48977A1C40AB99004ED320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4897681C40AB99004ED320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4897771C40AB99004ED320 /* ViewController.m in Sources */,
+				EA4897741C40AB99004ED320 /* AppDelegate.m in Sources */,
+				EA4897711C40AB99004ED320 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4897781C40AB99004ED320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4897791C40AB99004ED320 /* Base */,
+				EA4897861C40ABA7004ED320 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA48977D1C40AB99004ED320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA48977E1C40AB99004ED320 /* Base */,
+				EA4897871C40ABA7004ED320 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EA48978C1C40ABC5004ED320 /* background1.aiff */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA48978B1C40ABC5004ED320 /* Base */,
+				EA48978D1C40ABC6004ED320 /* en */,
+				EA48978E1C40ABC6004ED320 /* zh-Hans */,
+			);
+			name = background1.aiff;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4897811C40AB99004ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA4897821C40AB99004ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4897841C40AB99004ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundL10N/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.SoundL10N;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA4897851C40AB99004ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundL10N/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.SoundL10N;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4897671C40AB99004ED320 /* Build configuration list for PBXProject "SoundL10N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4897811C40AB99004ED320 /* Debug */,
+				EA4897821C40AB99004ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4897831C40AB99004ED320 /* Build configuration list for PBXNativeTarget "SoundL10N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4897841C40AB99004ED320 /* Debug */,
+				EA4897851C40AB99004ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4897641C40AB99004ED320 /* Project object */;
+}

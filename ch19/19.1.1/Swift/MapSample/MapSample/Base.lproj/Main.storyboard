@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-DD-eq2">
+                                <rect key="frame" x="0.0" y="130" width="600" height="470"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DO9-vt-xtW">
+                                <rect key="frame" x="185" y="57" width="231" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="cOp-oo-6R5"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="普通地图"/>
+                                    <segment title="卫星地图"/>
+                                    <segment title="混合地图"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectMapViewType:" destination="BYZ-38-t0r" eventType="valueChanged" id="R8S-D8-9EU"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RyB-DD-eq2" secondAttribute="trailing" id="BTL-6w-Xyr"/>
+                            <constraint firstItem="DO9-vt-xtW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="Djl-eh-ftd"/>
+                            <constraint firstItem="RyB-DD-eq2" firstAttribute="top" secondItem="DO9-vt-xtW" secondAttribute="bottom" constant="45" id="KSh-XB-T0T"/>
+                            <constraint firstItem="RyB-DD-eq2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="QTk-hl-1cn"/>
+                            <constraint firstItem="RyB-DD-eq2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ydj-Jy-aUd"/>
+                            <constraint firstItem="DO9-vt-xtW" firstAttribute="centerX" secondItem="RyB-DD-eq2" secondAttribute="centerX" id="zsV-Pd-GLd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="RyB-DD-eq2" id="NFz-fC-7el"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>

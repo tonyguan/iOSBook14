@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435CF7921A0748E70013C17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435CF7911A0748E70013C17B /* AppDelegate.swift */; };
+		435CF7991A0748E70013C17B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435CF7981A0748E70013C17B /* Images.xcassets */; };
+		435CF79C1A0748E70013C17B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435CF79A1A0748E70013C17B /* LaunchScreen.xib */; };
+		435CF7B71A074A760013C17B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435CF7B51A074A760013C17B /* MainViewController.swift */; };
+		435CF7BB1A074A9F0013C17B /* FlipsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435CF7B91A074A9F0013C17B /* FlipsideViewController.swift */; };
+		435CF7BD1A074AF50013C17B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435CF7BF1A074AF50013C17B /* MainViewController.xib */; };
+		435CF7C01A074AFD0013C17B /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435CF7C21A074AFD0013C17B /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		435CF78C1A0748E70013C17B /* NibLazyLoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibLazyLoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435CF7901A0748E70013C17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435CF7911A0748E70013C17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435CF7981A0748E70013C17B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		435CF79B1A0748E70013C17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		435CF7B51A074A760013C17B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		435CF7B91A074A9F0013C17B /* FlipsideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipsideViewController.swift; sourceTree = "<group>"; };
+		435CF7BE1A074AF50013C17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		435CF7C11A074AFD0013C17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435CF7891A0748E70013C17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435CF7811A0748C80013C17B = {
+			isa = PBXGroup;
+			children = (
+				435CF78E1A0748E70013C17B /* NibLazyLoadDemo */,
+				435CF78D1A0748E70013C17B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435CF78D1A0748E70013C17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435CF78C1A0748E70013C17B /* NibLazyLoadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435CF78E1A0748E70013C17B /* NibLazyLoadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				435CF7911A0748E70013C17B /* AppDelegate.swift */,
+				435CF7B51A074A760013C17B /* MainViewController.swift */,
+				435CF7BF1A074AF50013C17B /* MainViewController.xib */,
+				435CF7B91A074A9F0013C17B /* FlipsideViewController.swift */,
+				435CF7C21A074AFD0013C17B /* FlipsideViewController.xib */,
+				435CF7981A0748E70013C17B /* Images.xcassets */,
+				435CF79A1A0748E70013C17B /* LaunchScreen.xib */,
+				435CF78F1A0748E70013C17B /* Supporting Files */,
+			);
+			path = NibLazyLoadDemo;
+			sourceTree = "<group>";
+		};
+		435CF78F1A0748E70013C17B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435CF7901A0748E70013C17B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435CF78B1A0748E70013C17B /* NibLazyLoadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435CF7A91A0748E70013C17B /* Build configuration list for PBXNativeTarget "NibLazyLoadDemo" */;
+			buildPhases = (
+				435CF7881A0748E70013C17B /* Sources */,
+				435CF7891A0748E70013C17B /* Frameworks */,
+				435CF78A1A0748E70013C17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibLazyLoadDemo;
+			productName = NibLazyLoadDemo;
+			productReference = 435CF78C1A0748E70013C17B /* NibLazyLoadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435CF7821A0748C80013C17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					435CF78B1A0748E70013C17B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 435CF7851A0748C80013C17B /* Build configuration list for PBXProject "NibLazyLoadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435CF7811A0748C80013C17B;
+			productRefGroup = 435CF78D1A0748E70013C17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435CF78B1A0748E70013C17B /* NibLazyLoadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435CF78A1A0748E70013C17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435CF79C1A0748E70013C17B /* LaunchScreen.xib in Resources */,
+				435CF7BD1A074AF50013C17B /* MainViewController.xib in Resources */,
+				435CF7C01A074AFD0013C17B /* FlipsideViewController.xib in Resources */,
+				435CF7991A0748E70013C17B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435CF7881A0748E70013C17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435CF7921A0748E70013C17B /* AppDelegate.swift in Sources */,
+				435CF7BB1A074A9F0013C17B /* FlipsideViewController.swift in Sources */,
+				435CF7B71A074A760013C17B /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		435CF79A1A0748E70013C17B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435CF79B1A0748E70013C17B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		435CF7BF1A074AF50013C17B /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435CF7BE1A074AF50013C17B /* Base */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		435CF7C21A074AFD0013C17B /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435CF7C11A074AFD0013C17B /* Base */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435CF7861A0748C80013C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		435CF7871A0748C80013C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		435CF7AA1A0748E70013C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = NibLazyLoadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		435CF7AB1A0748E70013C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = NibLazyLoadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435CF7851A0748C80013C17B /* Build configuration list for PBXProject "NibLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435CF7861A0748C80013C17B /* Debug */,
+				435CF7871A0748C80013C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435CF7A91A0748E70013C17B /* Build configuration list for PBXNativeTarget "NibLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435CF7AA1A0748E70013C17B /* Debug */,
+				435CF7AB1A0748E70013C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435CF7821A0748C80013C17B /* Project object */;
+}

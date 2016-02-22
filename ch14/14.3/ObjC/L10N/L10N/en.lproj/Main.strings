@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "2ye-wy-rBe"; */
+"2ye-wy-rBe.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Stay hungry. Stay foolish."; ObjectID = "7Yx-56-8xI"; */
+"7Yx-56-8xI.text" = "Stay hungry. Stay foolish.";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "CdN-HG-Z5m"; */
+"CdN-HG-Z5m.title" = "Title";
+
+/* Class = "UILabel"; text = "Your Name:"; ObjectID = "RFj-gv-VpQ"; */
+"RFj-gv-VpQ.text" = "Your Name:";

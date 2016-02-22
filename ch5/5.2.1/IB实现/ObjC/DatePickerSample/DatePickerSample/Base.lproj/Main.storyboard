@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="quo-tW-hQS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="167" id="4xL-3F-SzK"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="434710169.38672698">
+                                    <!--2014-10-11 08:49:29 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="zh_CN"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipK-gO-SkO">
+                                <rect key="frame" x="279" y="313" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f88-22-lBm">
+                                <rect key="frame" x="277" y="411" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onclick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0f6-ve-Sly"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="quo-tW-hQS" secondAttribute="trailing" id="4PK-vn-90b"/>
+                            <constraint firstItem="quo-tW-hQS" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="4ZX-2f-Pga"/>
+                            <constraint firstItem="quo-tW-hQS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WfD-VL-mXS"/>
+                            <constraint firstItem="ipK-gO-SkO" firstAttribute="centerX" secondItem="f88-22-lBm" secondAttribute="centerX" id="gc2-3G-IwT"/>
+                            <constraint firstItem="f88-22-lBm" firstAttribute="top" secondItem="ipK-gO-SkO" secondAttribute="bottom" constant="77" id="peW-cu-15c"/>
+                            <constraint firstItem="quo-tW-hQS" firstAttribute="centerX" secondItem="ipK-gO-SkO" secondAttribute="centerX" id="tmW-rh-sDv"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="f88-22-lBm" secondAttribute="bottom" constant="159" id="yH3-NL-jeN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="quo-tW-hQS" id="Tf3-dc-1H0"/>
+                        <outlet property="label" destination="ipK-gO-SkO" id="FY1-ZF-Jep"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="357"/>
+        </scene>
+    </scenes>
+</document>

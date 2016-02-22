@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVa-mk-3hN">
+                                <rect key="frame" x="40" y="77" width="240" height="157"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下载进度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBh-hC-abz">
+                                <rect key="frame" x="40" y="280" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Qv4-ez-G9F">
+                                <rect key="frame" x="40" y="314" width="240" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCA-ch-SgW">
+                                <rect key="frame" x="65" y="20" width="190" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="IIv-Af-QqD"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="IIv-Af-QqD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="IIv-Af-QqD"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ko-Zu-xgf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eVa-mk-3hN" firstAttribute="leading" secondItem="KBh-hC-abz" secondAttribute="leading" id="0Ue-Wy-vlL"/>
+                            <constraint firstItem="eVa-mk-3hN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="8KF-H0-dJO"/>
+                            <constraint firstItem="Qv4-ez-G9F" firstAttribute="leading" secondItem="KBh-hC-abz" secondAttribute="leading" id="Hpw-61-eL5"/>
+                            <constraint firstItem="KBh-hC-abz" firstAttribute="top" secondItem="eVa-mk-3hN" secondAttribute="bottom" constant="40" id="O4P-qi-bdd"/>
+                            <constraint firstItem="eVa-mk-3hN" firstAttribute="top" secondItem="kCA-ch-SgW" secondAttribute="bottom" constant="33" id="Onq-U3-jSl"/>
+                            <constraint firstItem="kCA-ch-SgW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="VqO-mJ-DCi"/>
+                            <constraint firstItem="eVa-mk-3hN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zri-Ar-NKs"/>
+                            <constraint firstItem="Qv4-ez-G9F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lhv-YD-Yee"/>
+                            <constraint firstItem="kCA-ch-SgW" firstAttribute="centerX" secondItem="eVa-mk-3hN" secondAttribute="centerX" id="ppQ-ed-rYR"/>
+                            <constraint firstItem="Qv4-ez-G9F" firstAttribute="top" secondItem="KBh-hC-abz" secondAttribute="bottom" constant="14" id="qxB-h8-Man"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qv4-ez-G9F" secondAttribute="bottom" constant="266" id="sGH-aW-Tuk"/>
+                            <constraint firstItem="kCA-ch-SgW" firstAttribute="centerX" secondItem="Qv4-ez-G9F" secondAttribute="centerX" id="yTd-bo-EiW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eVa-mk-3hN"/>
+                                <exclude reference="KBh-hC-abz"/>
+                                <exclude reference="Qv4-ez-G9F"/>
+                                <exclude reference="kCA-ch-SgW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="sGH-aW-Tuk"/>
+                                <exclude reference="VqO-mJ-DCi"/>
+                                <exclude reference="ppQ-ed-rYR"/>
+                                <exclude reference="yTd-bo-EiW"/>
+                                <exclude reference="0Ue-Wy-vlL"/>
+                                <exclude reference="8KF-H0-dJO"/>
+                                <exclude reference="Onq-U3-jSl"/>
+                                <exclude reference="Zri-Ar-NKs"/>
+                                <exclude reference="O4P-qi-bdd"/>
+                                <exclude reference="Hpw-61-eL5"/>
+                                <exclude reference="lhv-YD-Yee"/>
+                                <exclude reference="qxB-h8-Man"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="eVa-mk-3hN"/>
+                                <include reference="KBh-hC-abz"/>
+                                <include reference="Qv4-ez-G9F"/>
+                                <include reference="kCA-ch-SgW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="sGH-aW-Tuk"/>
+                                <include reference="VqO-mJ-DCi"/>
+                                <include reference="ppQ-ed-rYR"/>
+                                <include reference="yTd-bo-EiW"/>
+                                <include reference="0Ue-Wy-vlL"/>
+                                <include reference="8KF-H0-dJO"/>
+                                <include reference="Onq-U3-jSl"/>
+                                <include reference="Zri-Ar-NKs"/>
+                                <include reference="O4P-qi-bdd"/>
+                                <include reference="Hpw-61-eL5"/>
+                                <include reference="lhv-YD-Yee"/>
+                                <include reference="qxB-h8-Man"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="eVa-mk-3hN" id="FEA-ot-jg4"/>
+                        <outlet property="progressView" destination="Qv4-ez-G9F" id="wEx-rh-gpz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429"/>
+        </scene>
+    </scenes>
+</document>

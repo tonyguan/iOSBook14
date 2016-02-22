@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B09FB319EDFA730027BA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B09FB219EDFA730027BA3E /* AppDelegate.swift */; };
+		43B09FB519EDFA730027BA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B09FB419EDFA730027BA3E /* ViewController.swift */; };
+		43B09FB819EDFA730027BA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FB619EDFA730027BA3E /* Main.storyboard */; };
+		43B09FBA19EDFA730027BA3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FB919EDFA730027BA3E /* Images.xcassets */; };
+		43B09FBD19EDFA730027BA3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FBB19EDFA730027BA3E /* LaunchScreen.xib */; };
+		43B09FD619EDFF390027BA3E /* 保罗克利-肖像.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FD319EDFF380027BA3E /* 保罗克利-肖像.png */; };
+		43B09FD719EDFF390027BA3E /* 罗丹-思想者.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FD419EDFF390027BA3E /* 罗丹-思想者.png */; };
+		43B09FD819EDFF390027BA3E /* 达芬奇-蒙娜丽莎.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B09FD519EDFF390027BA3E /* 达芬奇-蒙娜丽莎.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43B09FAD19EDFA730027BA3E /* PageControlNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageControlNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B09FB119EDFA730027BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B09FB219EDFA730027BA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43B09FB419EDFA730027BA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43B09FB719EDFA730027BA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B09FB919EDFA730027BA3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43B09FBC19EDFA730027BA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43B09FD319EDFF380027BA3E /* 保罗克利-肖像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保罗克利-肖像.png"; sourceTree = "<group>"; };
+		43B09FD419EDFF390027BA3E /* 罗丹-思想者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "罗丹-思想者.png"; sourceTree = "<group>"; };
+		43B09FD519EDFF390027BA3E /* 达芬奇-蒙娜丽莎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达芬奇-蒙娜丽莎.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B09FAA19EDFA730027BA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B09FA419EDFA730027BA3E = {
+			isa = PBXGroup;
+			children = (
+				43B09FAF19EDFA730027BA3E /* PageControlNavigation */,
+				43B09FAE19EDFA730027BA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B09FAE19EDFA730027BA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B09FAD19EDFA730027BA3E /* PageControlNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B09FAF19EDFA730027BA3E /* PageControlNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				43B09FD219EDFF380027BA3E /* images */,
+				43B09FB219EDFA730027BA3E /* AppDelegate.swift */,
+				43B09FB419EDFA730027BA3E /* ViewController.swift */,
+				43B09FB619EDFA730027BA3E /* Main.storyboard */,
+				43B09FB919EDFA730027BA3E /* Images.xcassets */,
+				43B09FBB19EDFA730027BA3E /* LaunchScreen.xib */,
+				43B09FB019EDFA730027BA3E /* Supporting Files */,
+			);
+			path = PageControlNavigation;
+			sourceTree = "<group>";
+		};
+		43B09FB019EDFA730027BA3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B09FB119EDFA730027BA3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B09FD219EDFF380027BA3E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				43B09FD319EDFF380027BA3E /* 保罗克利-肖像.png */,
+				43B09FD419EDFF390027BA3E /* 罗丹-思想者.png */,
+				43B09FD519EDFF390027BA3E /* 达芬奇-蒙娜丽莎.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B09FAC19EDFA730027BA3E /* PageControlNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B09FCC19EDFA730027BA3E /* Build configuration list for PBXNativeTarget "PageControlNavigation" */;
+			buildPhases = (
+				43B09FA919EDFA730027BA3E /* Sources */,
+				43B09FAA19EDFA730027BA3E /* Frameworks */,
+				43B09FAB19EDFA730027BA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageControlNavigation;
+			productName = PageControlNavigation;
+			productReference = 43B09FAD19EDFA730027BA3E /* PageControlNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B09FA519EDFA730027BA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tonyguan;
+				TargetAttributes = {
+					43B09FAC19EDFA730027BA3E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 43B09FA819EDFA730027BA3E /* Build configuration list for PBXProject "PageControlNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B09FA419EDFA730027BA3E;
+			productRefGroup = 43B09FAE19EDFA730027BA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B09FAC19EDFA730027BA3E /* PageControlNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B09FAB19EDFA730027BA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B09FD719EDFF390027BA3E /* 罗丹-思想者.png in Resources */,
+				43B09FD619EDFF390027BA3E /* 保罗克利-肖像.png in Resources */,
+				43B09FB819EDFA730027BA3E /* Main.storyboard in Resources */,
+				43B09FBD19EDFA730027BA3E /* LaunchScreen.xib in Resources */,
+				43B09FBA19EDFA730027BA3E /* Images.xcassets in Resources */,
+				43B09FD819EDFF390027BA3E /* 达芬奇-蒙娜丽莎.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B09FA919EDFA730027BA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B09FB519EDFA730027BA3E /* ViewController.swift in Sources */,
+				43B09FB319EDFA730027BA3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43B09FB619EDFA730027BA3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B09FB719EDFA730027BA3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43B09FBB19EDFA730027BA3E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B09FBC19EDFA730027BA3E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43B09FCA19EDFA730027BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43B09FCB19EDFA730027BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B09FCD19EDFA730027BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageControlNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43B09FCE19EDFA730027BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageControlNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B09FA819EDFA730027BA3E /* Build configuration list for PBXProject "PageControlNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B09FCA19EDFA730027BA3E /* Debug */,
+				43B09FCB19EDFA730027BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B09FCC19EDFA730027BA3E /* Build configuration list for PBXNativeTarget "PageControlNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B09FCD19EDFA730027BA3E /* Debug */,
+				43B09FCE19EDFA730027BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B09FA519EDFA730027BA3E /* Project object */;
+}

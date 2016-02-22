@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4C7D421C2BC2E900ED84E0 /* 保罗克利-肖像.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7D3F1C2BC2E900ED84E0 /* 保罗克利-肖像.png */; };
+		EA4C7D431C2BC2E900ED84E0 /* 罗丹-思想者.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7D401C2BC2E900ED84E0 /* 罗丹-思想者.png */; };
+		EA4C7D441C2BC2E900ED84E0 /* 达芬奇-蒙娜丽莎.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7D411C2BC2E900ED84E0 /* 达芬奇-蒙娜丽莎.png */; };
+		EAB454DF1C2BBC5B00FB22FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB454DE1C2BBC5B00FB22FF /* main.m */; };
+		EAB454E21C2BBC5B00FB22FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB454E11C2BBC5B00FB22FF /* AppDelegate.m */; };
+		EAB454E51C2BBC5B00FB22FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB454E41C2BBC5B00FB22FF /* ViewController.m */; };
+		EAB454E81C2BBC5B00FB22FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB454E61C2BBC5B00FB22FF /* Main.storyboard */; };
+		EAB454EA1C2BBC5B00FB22FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB454E91C2BBC5B00FB22FF /* Assets.xcassets */; };
+		EAB454ED1C2BBC5B00FB22FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB454EB1C2BBC5B00FB22FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4C7D3F1C2BC2E900ED84E0 /* 保罗克利-肖像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保罗克利-肖像.png"; sourceTree = "<group>"; };
+		EA4C7D401C2BC2E900ED84E0 /* 罗丹-思想者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "罗丹-思想者.png"; sourceTree = "<group>"; };
+		EA4C7D411C2BC2E900ED84E0 /* 达芬奇-蒙娜丽莎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达芬奇-蒙娜丽莎.png"; sourceTree = "<group>"; };
+		EAB454DA1C2BBC5B00FB22FF /* PageNavgation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageNavgation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB454DE1C2BBC5B00FB22FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB454E01C2BBC5B00FB22FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB454E11C2BBC5B00FB22FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB454E31C2BBC5B00FB22FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB454E41C2BBC5B00FB22FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB454E71C2BBC5B00FB22FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB454E91C2BBC5B00FB22FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB454EC1C2BBC5B00FB22FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB454EE1C2BBC5B00FB22FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB454D71C2BBC5B00FB22FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4C7D3E1C2BC2E900ED84E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7D3F1C2BC2E900ED84E0 /* 保罗克利-肖像.png */,
+				EA4C7D401C2BC2E900ED84E0 /* 罗丹-思想者.png */,
+				EA4C7D411C2BC2E900ED84E0 /* 达芬奇-蒙娜丽莎.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EAB454D11C2BBC5B00FB22FF = {
+			isa = PBXGroup;
+			children = (
+				EAB454DC1C2BBC5B00FB22FF /* PageNavgation */,
+				EAB454DB1C2BBC5B00FB22FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB454DB1C2BBC5B00FB22FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB454DA1C2BBC5B00FB22FF /* PageNavgation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB454DC1C2BBC5B00FB22FF /* PageNavgation */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7D3E1C2BC2E900ED84E0 /* images */,
+				EAB454E01C2BBC5B00FB22FF /* AppDelegate.h */,
+				EAB454E11C2BBC5B00FB22FF /* AppDelegate.m */,
+				EAB454E31C2BBC5B00FB22FF /* ViewController.h */,
+				EAB454E41C2BBC5B00FB22FF /* ViewController.m */,
+				EAB454E61C2BBC5B00FB22FF /* Main.storyboard */,
+				EAB454E91C2BBC5B00FB22FF /* Assets.xcassets */,
+				EAB454EB1C2BBC5B00FB22FF /* LaunchScreen.storyboard */,
+				EAB454EE1C2BBC5B00FB22FF /* Info.plist */,
+				EAB454DD1C2BBC5B00FB22FF /* Supporting Files */,
+			);
+			path = PageNavgation;
+			sourceTree = "<group>";
+		};
+		EAB454DD1C2BBC5B00FB22FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB454DE1C2BBC5B00FB22FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB454D91C2BBC5B00FB22FF /* PageNavgation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB454F11C2BBC5B00FB22FF /* Build configuration list for PBXNativeTarget "PageNavgation" */;
+			buildPhases = (
+				EAB454D61C2BBC5B00FB22FF /* Sources */,
+				EAB454D71C2BBC5B00FB22FF /* Frameworks */,
+				EAB454D81C2BBC5B00FB22FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageNavgation;
+			productName = PageNavgation;
+			productReference = EAB454DA1C2BBC5B00FB22FF /* PageNavgation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB454D21C2BBC5B00FB22FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EAB454D91C2BBC5B00FB22FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EAB454D51C2BBC5B00FB22FF /* Build configuration list for PBXProject "PageNavgation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB454D11C2BBC5B00FB22FF;
+			productRefGroup = EAB454DB1C2BBC5B00FB22FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB454D91C2BBC5B00FB22FF /* PageNavgation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB454D81C2BBC5B00FB22FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C7D431C2BC2E900ED84E0 /* 罗丹-思想者.png in Resources */,
+				EA4C7D421C2BC2E900ED84E0 /* 保罗克利-肖像.png in Resources */,
+				EAB454ED1C2BBC5B00FB22FF /* LaunchScreen.storyboard in Resources */,
+				EAB454EA1C2BBC5B00FB22FF /* Assets.xcassets in Resources */,
+				EAB454E81C2BBC5B00FB22FF /* Main.storyboard in Resources */,
+				EA4C7D441C2BC2E900ED84E0 /* 达芬奇-蒙娜丽莎.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB454D61C2BBC5B00FB22FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB454E51C2BBC5B00FB22FF /* ViewController.m in Sources */,
+				EAB454E21C2BBC5B00FB22FF /* AppDelegate.m in Sources */,
+				EAB454DF1C2BBC5B00FB22FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB454E61C2BBC5B00FB22FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB454E71C2BBC5B00FB22FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB454EB1C2BBC5B00FB22FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB454EC1C2BBC5B00FB22FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB454EF1C2BBC5B00FB22FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB454F01C2BBC5B00FB22FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB454F21C2BBC5B00FB22FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageNavgation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.PageNavgation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAB454F31C2BBC5B00FB22FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageNavgation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.PageNavgation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB454D51C2BBC5B00FB22FF /* Build configuration list for PBXProject "PageNavgation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB454EF1C2BBC5B00FB22FF /* Debug */,
+				EAB454F01C2BBC5B00FB22FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB454F11C2BBC5B00FB22FF /* Build configuration list for PBXNativeTarget "PageNavgation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB454F21C2BBC5B00FB22FF /* Debug */,
+				EAB454F31C2BBC5B00FB22FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB454D21C2BBC5B00FB22FF /* Project object */;
+}

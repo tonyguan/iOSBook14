@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>吉林省</key>
+	<array>
+		<string>长春</string>
+		<string>吉林</string>
+		<string>四平</string>
+		<string>辽源</string>
+		<string>通化	</string>
+		<string>白山</string>
+		<string>松原</string>
+		<string>白城</string>
+	</array>
+	<key>黑龙江省</key>
+	<array>
+		<string>哈尔滨</string>
+		<string>齐齐哈尔</string>
+		<string>鸡西</string>
+		<string>鹤岗</string>
+		<string>双鸭山</string>
+		<string>大庆</string>
+		<string>伊春</string>
+		<string>佳木斯</string>
+		<string>七台河</string>
+		<string>牡丹江</string>
+		<string>黑河</string>
+		<string>绥化</string>
+	</array>
+	<key>辽宁省</key>
+	<array>
+		<string>沈阳</string>
+		<string>大连</string>
+		<string>鞍山</string>
+		<string>抚顺</string>
+		<string>本溪</string>
+		<string>丹东</string>
+		<string>锦州</string>
+		<string>营口</string>
+		<string>阜新</string>
+		<string>辽阳</string>
+		<string>盘锦</string>
+		<string>铁岭</string>
+		<string>朝阳</string>
+		<string>葫芦岛</string>
+	</array>
+</dict>
+</plist>

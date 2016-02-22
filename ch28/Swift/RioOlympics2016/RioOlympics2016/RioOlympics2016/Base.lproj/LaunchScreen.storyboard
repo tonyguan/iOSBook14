@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RioOlympics2016" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Jb5-Ly-dHr">
+                                <rect key="frame" x="80" y="78" width="441" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="VBC-RZ-bQL">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="fxN-D0-pq6"/>
+                                    <constraint firstAttribute="width" constant="100" id="pv7-r0-2Ie"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2014年 智捷课堂. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="IHI-6G-PPp">
+                                <rect key="frame" x="155" y="492" width="290" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jb5-Ly-dHr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="60" id="Jod-9Y-Atq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="IHI-6G-PPp" secondAttribute="bottom" constant="93" id="Uvg-Pc-mju"/>
+                            <constraint firstItem="IHI-6G-PPp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eR9-cq-ATe"/>
+                            <constraint firstItem="VBC-RZ-bQL" firstAttribute="centerX" secondItem="Jb5-Ly-dHr" secondAttribute="centerX" id="lac-lA-U07"/>
+                            <constraint firstItem="VBC-RZ-bQL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m9B-0g-TRX"/>
+                            <constraint firstItem="VBC-RZ-bQL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="q27-O1-ah0"/>
+                            <constraint firstItem="Jb5-Ly-dHr" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="58" id="slS-N4-4JF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="80" height="80"/>
+    </resources>
+</document>

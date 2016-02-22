@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE23F391C18A70200EA3782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE23F381C18A70200EA3782 /* main.m */; };
+		EAE23F3C1C18A70300EA3782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE23F3B1C18A70300EA3782 /* AppDelegate.m */; };
+		EAE23F3F1C18A70300EA3782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE23F3E1C18A70300EA3782 /* ViewController.m */; };
+		EAE23F441C18A70300EA3782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE23F431C18A70300EA3782 /* Assets.xcassets */; };
+		EAE23F471C18A70300EA3782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE23F451C18A70300EA3782 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAE23F341C18A70200EA3782 /* LabelButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE23F381C18A70200EA3782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAE23F3A1C18A70200EA3782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAE23F3B1C18A70300EA3782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAE23F3D1C18A70300EA3782 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAE23F3E1C18A70300EA3782 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAE23F431C18A70300EA3782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE23F461C18A70300EA3782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE23F481C18A70300EA3782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE23F311C18A70200EA3782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE23F2B1C18A70200EA3782 = {
+			isa = PBXGroup;
+			children = (
+				EAE23F361C18A70200EA3782 /* LabelButton */,
+				EAE23F351C18A70200EA3782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE23F351C18A70200EA3782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE23F341C18A70200EA3782 /* LabelButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE23F361C18A70200EA3782 /* LabelButton */ = {
+			isa = PBXGroup;
+			children = (
+				EAE23F3A1C18A70200EA3782 /* AppDelegate.h */,
+				EAE23F3B1C18A70300EA3782 /* AppDelegate.m */,
+				EAE23F3D1C18A70300EA3782 /* ViewController.h */,
+				EAE23F3E1C18A70300EA3782 /* ViewController.m */,
+				EAE23F431C18A70300EA3782 /* Assets.xcassets */,
+				EAE23F451C18A70300EA3782 /* LaunchScreen.storyboard */,
+				EAE23F481C18A70300EA3782 /* Info.plist */,
+				EAE23F371C18A70200EA3782 /* Supporting Files */,
+			);
+			path = LabelButton;
+			sourceTree = "<group>";
+		};
+		EAE23F371C18A70200EA3782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE23F381C18A70200EA3782 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE23F331C18A70200EA3782 /* LabelButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE23F4B1C18A70300EA3782 /* Build configuration list for PBXNativeTarget "LabelButton" */;
+			buildPhases = (
+				EAE23F301C18A70200EA3782 /* Sources */,
+				EAE23F311C18A70200EA3782 /* Frameworks */,
+				EAE23F321C18A70200EA3782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelButton;
+			productName = LabelButton;
+			productReference = EAE23F341C18A70200EA3782 /* LabelButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE23F2C1C18A70200EA3782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EAE23F331C18A70200EA3782 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EAE23F2F1C18A70200EA3782 /* Build configuration list for PBXProject "LabelButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE23F2B1C18A70200EA3782;
+			productRefGroup = EAE23F351C18A70200EA3782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE23F331C18A70200EA3782 /* LabelButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE23F321C18A70200EA3782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE23F471C18A70300EA3782 /* LaunchScreen.storyboard in Resources */,
+				EAE23F441C18A70300EA3782 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE23F301C18A70200EA3782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE23F3F1C18A70300EA3782 /* ViewController.m in Sources */,
+				EAE23F3C1C18A70300EA3782 /* AppDelegate.m in Sources */,
+				EAE23F391C18A70200EA3782 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAE23F451C18A70300EA3782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE23F461C18A70300EA3782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE23F491C18A70300EA3782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAE23F4A1C18A70300EA3782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE23F4C1C18A70300EA3782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LabelButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.LabelButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAE23F4D1C18A70300EA3782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LabelButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.LabelButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE23F2F1C18A70200EA3782 /* Build configuration list for PBXProject "LabelButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE23F491C18A70300EA3782 /* Debug */,
+				EAE23F4A1C18A70300EA3782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE23F4B1C18A70300EA3782 /* Build configuration list for PBXNativeTarget "LabelButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE23F4C1C18A70300EA3782 /* Debug */,
+				EAE23F4D1C18A70300EA3782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE23F2C1C18A70200EA3782 /* Project object */;
+}

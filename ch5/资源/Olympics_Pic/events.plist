@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>archery.gif</string>
+		<key>name</key>
+		<string>archery</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>athletics.gif</string>
+		<key>name</key>
+		<string>athletics</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>badminton.gif</string>
+		<key>name</key>
+		<string>badminton</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>basketball.gif</string>
+		<key>name</key>
+		<string>basketball</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>beach-volleyball.gif</string>
+		<key>name</key>
+		<string>beach-volleyball</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>boxing.gif</string>
+		<key>name</key>
+		<string>boxing</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>canoe-slalom.gif</string>
+		<key>name</key>
+		<string>canoe-slalom</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>canoe-sprint.gif</string>
+		<key>name</key>
+		<string>canoe-sprint</string>
+	</dict>
+</array>
+</plist>

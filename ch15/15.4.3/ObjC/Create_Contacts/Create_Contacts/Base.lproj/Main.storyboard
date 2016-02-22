@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fvx-n2-4cV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--创建联系人-->
+        <scene sceneID="Zc9-bh-uUs">
+            <objects>
+                <tableViewController id="r2K-KT-3Xk" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="W1R-F7-wrU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="sMQ-Dc-ZTL">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DI4-cI-fZl">
+                                        <rect key="frame" x="0.0" y="99" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DI4-cI-fZl" id="zZD-kl-R08">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uw-Hl-2Oe">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="New Contact">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="newContactClick:" destination="r2K-KT-3Xk" eventType="touchUpInside" id="9wm-Q1-Vj6"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7uw-Hl-2Oe" firstAttribute="top" secondItem="zZD-kl-R08" secondAttribute="topMargin" constant="-3" id="JkD-6a-20H"/>
+                                                <constraint firstItem="7uw-Hl-2Oe" firstAttribute="centerX" secondItem="zZD-kl-R08" secondAttribute="centerX" id="ch0-fn-XDO"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="7uw-Hl-2Oe"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="JkD-6a-20H"/>
+                                                    <exclude reference="ch0-fn-XDO"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="7uw-Hl-2Oe"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="JkD-6a-20H"/>
+                                                    <include reference="ch0-fn-XDO"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="ZHo-dl-UZp">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fB4-Wq-iKq">
+                                        <rect key="frame" x="0.0" y="163" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fB4-Wq-iKq" id="o7G-jy-qoG">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpu-tz-nLL">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Unknown Contact">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="unknownContactClick:" destination="r2K-KT-3Xk" eventType="touchUpInside" id="JRQ-lO-EOE"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Dpu-tz-nLL" firstAttribute="top" secondItem="o7G-jy-qoG" secondAttribute="topMargin" id="SAQ-1G-99Y"/>
+                                                <constraint firstItem="Dpu-tz-nLL" firstAttribute="centerX" secondItem="o7G-jy-qoG" secondAttribute="centerX" id="XrP-MR-XuL"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="Dpu-tz-nLL"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="SAQ-1G-99Y"/>
+                                                    <exclude reference="XrP-MR-XuL"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="Dpu-tz-nLL"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="SAQ-1G-99Y"/>
+                                                    <include reference="XrP-MR-XuL"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="r2K-KT-3Xk" id="eCk-sr-Pvd"/>
+                            <outlet property="delegate" destination="r2K-KT-3Xk" id="mMd-1E-y3e"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="创建联系人" id="SAK-rJ-mqS"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQc-4V-cFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="224"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cqy-fG-NtX">
+            <objects>
+                <navigationController id="fvx-n2-4cV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="klB-bd-8J6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r2K-KT-3Xk" kind="relationship" relationship="rootViewController" id="12O-TP-Zct"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LfQ-6p-1R2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807" y="224"/>
+        </scene>
+    </scenes>
+</document>

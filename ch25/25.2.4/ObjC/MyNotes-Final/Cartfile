@@ -1,0 +1,2 @@
+github "https://github.com/AFNetworking/AFNetworking.git" ~> 3.0
+github "jdg/MBProgressHUD" "master"

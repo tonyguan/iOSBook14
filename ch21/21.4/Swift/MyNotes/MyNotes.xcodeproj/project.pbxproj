@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1C760C1C4E3EBC00706260 /* NotesTestData.xml in Resources */ = {isa = PBXBuildFile; fileRef = EA1C760B1C4E3EBC00706260 /* NotesTestData.xml */; };
+		EA1C76141C4E3EF700706260 /* MyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C76131C4E3EF700706260 /* MyNotesTests.swift */; };
+		EA1C761B1C4E3F2700706260 /* NotesTBXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4897C51C4100F4004ED320 /* NotesTBXMLParser.swift */; };
+		EA1C761C1C4E3F2C00706260 /* NotesXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4897BC1C40F836004ED320 /* NotesXMLParser.swift */; };
+		EA41C6CF1C35290400C93B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41C6CE1C35290400C93B3E /* AppDelegate.swift */; };
+		EA41C6D11C35290400C93B3E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41C6D01C35290400C93B3E /* MasterViewController.swift */; };
+		EA41C6D31C35290400C93B3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41C6D21C35290400C93B3E /* DetailViewController.swift */; };
+		EA41C6D61C35290400C93B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41C6D41C35290400C93B3E /* Main.storyboard */; };
+		EA41C6D81C35290400C93B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA41C6D71C35290400C93B3E /* Assets.xcassets */; };
+		EA41C6DB1C35290400C93B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41C6D91C35290400C93B3E /* LaunchScreen.storyboard */; };
+		EA4897B71C40EE5A004ED320 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897AF1C40EE5A004ED320 /* TBXML+Compression.m */; };
+		EA4897B81C40EE5A004ED320 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897B01C40EE5A004ED320 /* TBXML+HTTP.m */; };
+		EA4897B91C40EE5A004ED320 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4897B11C40EE5A004ED320 /* TBXML.m */; };
+		EA4897BD1C40F836004ED320 /* NotesXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4897BC1C40F836004ED320 /* NotesXMLParser.swift */; };
+		EA4897C11C40FAFE004ED320 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4897C01C40FAFE004ED320 /* CoreGraphics.framework */; };
+		EA4897C31C40FB44004ED320 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4897C21C40FB44004ED320 /* libz.tbd */; };
+		EA4897C61C4100F4004ED320 /* NotesTBXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4897C51C4100F4004ED320 /* NotesTBXMLParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1C76161C4E3EF700706260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA41C6C31C35290400C93B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA41C6CA1C35290400C93B3E;
+			remoteInfo = MyNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1C760B1C4E3EBC00706260 /* NotesTestData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NotesTestData.xml; sourceTree = "<group>"; };
+		EA1C76111C4E3EF700706260 /* MyNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C76131C4E3EF700706260 /* MyNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesTests.swift; sourceTree = "<group>"; };
+		EA1C76151C4E3EF700706260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41C6CB1C35290400C93B3E /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA41C6CE1C35290400C93B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA41C6D01C35290400C93B3E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EA41C6D21C35290400C93B3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EA41C6D51C35290400C93B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA41C6D71C35290400C93B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA41C6DA1C35290400C93B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA41C6DC1C35290400C93B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4897AF1C40EE5A004ED320 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		EA4897B01C40EE5A004ED320 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		EA4897B11C40EE5A004ED320 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		EA4897B31C40EE5A004ED320 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		EA4897B41C40EE5A004ED320 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		EA4897B51C40EE5A004ED320 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		EA4897BC1C40F836004ED320 /* NotesXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesXMLParser.swift; sourceTree = "<group>"; };
+		EA4897C01C40FAFE004ED320 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA4897C21C40FB44004ED320 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EA4897C41C40FCE3004ED320 /* MyNotes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNotes-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		EA4897C51C4100F4004ED320 /* NotesTBXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTBXMLParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1C760E1C4E3EF700706260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C6C81C35290400C93B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4897C31C40FB44004ED320 /* libz.tbd in Frameworks */,
+				EA4897C11C40FAFE004ED320 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1C76121C4E3EF700706260 /* MyNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C76131C4E3EF700706260 /* MyNotesTests.swift */,
+				EA1C76151C4E3EF700706260 /* Info.plist */,
+			);
+			path = MyNotesTests;
+			sourceTree = "<group>";
+		};
+		EA41C6C21C35290400C93B3E = {
+			isa = PBXGroup;
+			children = (
+				EA41C6E21C35297000C93B3E /* BusinessLogicLayer */,
+				EA41C6CD1C35290400C93B3E /* PresentationLayer */,
+				EA1C76121C4E3EF700706260 /* MyNotesTests */,
+				EA41C6CC1C35290400C93B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA41C6CC1C35290400C93B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C6CB1C35290400C93B3E /* MyNotes.app */,
+				EA1C76111C4E3EF700706260 /* MyNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA41C6CD1C35290400C93B3E /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C6CE1C35290400C93B3E /* AppDelegate.swift */,
+				EA41C6D01C35290400C93B3E /* MasterViewController.swift */,
+				EA41C6D21C35290400C93B3E /* DetailViewController.swift */,
+				EA41C6D41C35290400C93B3E /* Main.storyboard */,
+				EA41C6D71C35290400C93B3E /* Assets.xcassets */,
+				EA41C6D91C35290400C93B3E /* LaunchScreen.storyboard */,
+				EA4897C41C40FCE3004ED320 /* MyNotes-Bridging-Header.h */,
+				EA4897C21C40FB44004ED320 /* libz.tbd */,
+				EA4897C01C40FAFE004ED320 /* CoreGraphics.framework */,
+				EA41C6DC1C35290400C93B3E /* Info.plist */,
+			);
+			name = PresentationLayer;
+			path = MyNotes;
+			sourceTree = "<group>";
+		};
+		EA41C6E21C35297000C93B3E /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA4897AC1C40EE5A004ED320 /* TBXML */,
+				EA1C760B1C4E3EBC00706260 /* NotesTestData.xml */,
+				EA4897BC1C40F836004ED320 /* NotesXMLParser.swift */,
+				EA4897C51C4100F4004ED320 /* NotesTBXMLParser.swift */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		EA4897AC1C40EE5A004ED320 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				EA4897AE1C40EE5A004ED320 /* TBXML-Code */,
+				EA4897B21C40EE5A004ED320 /* TBXML-Headers */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		EA4897AE1C40EE5A004ED320 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				EA4897AF1C40EE5A004ED320 /* TBXML+Compression.m */,
+				EA4897B01C40EE5A004ED320 /* TBXML+HTTP.m */,
+				EA4897B11C40EE5A004ED320 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = "<group>";
+		};
+		EA4897B21C40EE5A004ED320 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EA4897B31C40EE5A004ED320 /* TBXML+Compression.h */,
+				EA4897B41C40EE5A004ED320 /* TBXML+HTTP.h */,
+				EA4897B51C40EE5A004ED320 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1C76101C4E3EF700706260 /* MyNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C76181C4E3EF700706260 /* Build configuration list for PBXNativeTarget "MyNotesTests" */;
+			buildPhases = (
+				EA1C760D1C4E3EF700706260 /* Sources */,
+				EA1C760E1C4E3EF700706260 /* Frameworks */,
+				EA1C760F1C4E3EF700706260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1C76171C4E3EF700706260 /* PBXTargetDependency */,
+			);
+			name = MyNotesTests;
+			productName = MyNotesTests;
+			productReference = EA1C76111C4E3EF700706260 /* MyNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA41C6CA1C35290400C93B3E /* MyNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41C6DF1C35290400C93B3E /* Build configuration list for PBXNativeTarget "MyNotes" */;
+			buildPhases = (
+				EA41C6C71C35290400C93B3E /* Sources */,
+				EA41C6C81C35290400C93B3E /* Frameworks */,
+				EA41C6C91C35290400C93B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotes;
+			productName = MyNotes;
+			productReference = EA41C6CB1C35290400C93B3E /* MyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA41C6C31C35290400C93B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EA1C76101C4E3EF700706260 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA41C6CA1C35290400C93B3E;
+					};
+					EA41C6CA1C35290400C93B3E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA41C6C61C35290400C93B3E /* Build configuration list for PBXProject "MyNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA41C6C21C35290400C93B3E;
+			productRefGroup = EA41C6CC1C35290400C93B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA41C6CA1C35290400C93B3E /* MyNotes */,
+				EA1C76101C4E3EF700706260 /* MyNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1C760F1C4E3EF700706260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C6C91C35290400C93B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41C6DB1C35290400C93B3E /* LaunchScreen.storyboard in Resources */,
+				EA41C6D81C35290400C93B3E /* Assets.xcassets in Resources */,
+				EA41C6D61C35290400C93B3E /* Main.storyboard in Resources */,
+				EA1C760C1C4E3EBC00706260 /* NotesTestData.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1C760D1C4E3EF700706260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C761C1C4E3F2C00706260 /* NotesXMLParser.swift in Sources */,
+				EA1C761B1C4E3F2700706260 /* NotesTBXMLParser.swift in Sources */,
+				EA1C76141C4E3EF700706260 /* MyNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C6C71C35290400C93B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4897B71C40EE5A004ED320 /* TBXML+Compression.m in Sources */,
+				EA41C6D31C35290400C93B3E /* DetailViewController.swift in Sources */,
+				EA41C6D11C35290400C93B3E /* MasterViewController.swift in Sources */,
+				EA4897BD1C40F836004ED320 /* NotesXMLParser.swift in Sources */,
+				EA41C6CF1C35290400C93B3E /* AppDelegate.swift in Sources */,
+				EA4897B81C40EE5A004ED320 /* TBXML+HTTP.m in Sources */,
+				EA4897C61C4100F4004ED320 /* NotesTBXMLParser.swift in Sources */,
+				EA4897B91C40EE5A004ED320 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1C76171C4E3EF700706260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA41C6CA1C35290400C93B3E /* MyNotes */;
+			targetProxy = EA1C76161C4E3EF700706260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA41C6D41C35290400C93B3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA41C6D51C35290400C93B3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA41C6D91C35290400C93B3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA41C6DA1C35290400C93B3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1C76191C4E3EF700706260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNotes-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotes.app/MyNotes";
+			};
+			name = Debug;
+		};
+		EA1C761A1C4E3EF700706260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNotes-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotes.app/MyNotes";
+			};
+			name = Release;
+		};
+		EA41C6DD1C35290400C93B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA41C6DE1C35290400C93B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA41C6E01C35290400C93B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNotes-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EA41C6E11C35290400C93B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNotes-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1C76181C4E3EF700706260 /* Build configuration list for PBXNativeTarget "MyNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C76191C4E3EF700706260 /* Debug */,
+				EA1C761A1C4E3EF700706260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA41C6C61C35290400C93B3E /* Build configuration list for PBXProject "MyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C6DD1C35290400C93B3E /* Debug */,
+				EA41C6DE1C35290400C93B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41C6DF1C35290400C93B3E /* Build configuration list for PBXNativeTarget "MyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C6E01C35290400C93B3E /* Debug */,
+				EA41C6E11C35290400C93B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA41C6C31C35290400C93B3E /* Project object */;
+}

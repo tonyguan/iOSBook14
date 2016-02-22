@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4C7D781C2BE4B300ED84E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C7D771C2BE4B300ED84E0 /* main.m */; };
+		EA4C7D7B1C2BE4B300ED84E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C7D7A1C2BE4B300ED84E0 /* AppDelegate.m */; };
+		EA4C7D831C2BE4B300ED84E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7D821C2BE4B300ED84E0 /* Assets.xcassets */; };
+		EA4C7D861C2BE4B300ED84E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7D841C2BE4B300ED84E0 /* LaunchScreen.storyboard */; };
+		EA4C7DD91C2BEF3900ED84E0 /* Hei.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DCD1C2BEF3900ED84E0 /* Hei.png */; };
+		EA4C7DDA1C2BEF3900ED84E0 /* Hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DCE1C2BEF3900ED84E0 /* Hei@2x.png */; };
+		EA4C7DDB1C2BEF3900ED84E0 /* Hei@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DCF1C2BEF3900ED84E0 /* Hei@3x.png */; };
+		EA4C7DDC1C2BEF3900ED84E0 /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD01C2BEF3900ED84E0 /* Ji.png */; };
+		EA4C7DDD1C2BEF3900ED84E0 /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD11C2BEF3900ED84E0 /* Ji@2x.png */; };
+		EA4C7DDE1C2BEF3900ED84E0 /* Ji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD21C2BEF3900ED84E0 /* Ji@3x.png */; };
+		EA4C7DDF1C2BEF3900ED84E0 /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD31C2BEF3900ED84E0 /* Liao.png */; };
+		EA4C7DE01C2BEF3900ED84E0 /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD41C2BEF3900ED84E0 /* Liao@2x.png */; };
+		EA4C7DE11C2BEF3900ED84E0 /* Liao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DD51C2BEF3900ED84E0 /* Liao@3x.png */; };
+		EA4C7DE51C2BF0F500ED84E0 /* JiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C7DE31C2BF0F500ED84E0 /* JiViewController.m */; };
+		EA4C7DE61C2BF0F500ED84E0 /* JiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DE41C2BF0F500ED84E0 /* JiViewController.xib */; };
+		EA4C7DEA1C2BF11B00ED84E0 /* LiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C7DE81C2BF11B00ED84E0 /* LiaoViewController.m */; };
+		EA4C7DEB1C2BF11B00ED84E0 /* LiaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DE91C2BF11B00ED84E0 /* LiaoViewController.xib */; };
+		EA4C7DEF1C2BF13300ED84E0 /* HeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C7DED1C2BF13300ED84E0 /* HeiViewController.m */; };
+		EA4C7DF01C2BF13300ED84E0 /* HeiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C7DEE1C2BF13300ED84E0 /* HeiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4C7D731C2BE4B300ED84E0 /* TabNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4C7D771C2BE4B300ED84E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA4C7D791C2BE4B300ED84E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA4C7D7A1C2BE4B300ED84E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA4C7D821C2BE4B300ED84E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4C7D851C2BE4B300ED84E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4C7D871C2BE4B300ED84E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4C7DCD1C2BEF3900ED84E0 /* Hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hei.png; sourceTree = "<group>"; };
+		EA4C7DCE1C2BEF3900ED84E0 /* Hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hei@2x.png"; sourceTree = "<group>"; };
+		EA4C7DCF1C2BEF3900ED84E0 /* Hei@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hei@3x.png"; sourceTree = "<group>"; };
+		EA4C7DD01C2BEF3900ED84E0 /* Ji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ji.png; sourceTree = "<group>"; };
+		EA4C7DD11C2BEF3900ED84E0 /* Ji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ji@2x.png"; sourceTree = "<group>"; };
+		EA4C7DD21C2BEF3900ED84E0 /* Ji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ji@3x.png"; sourceTree = "<group>"; };
+		EA4C7DD31C2BEF3900ED84E0 /* Liao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liao.png; sourceTree = "<group>"; };
+		EA4C7DD41C2BEF3900ED84E0 /* Liao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@2x.png"; sourceTree = "<group>"; };
+		EA4C7DD51C2BEF3900ED84E0 /* Liao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@3x.png"; sourceTree = "<group>"; };
+		EA4C7DE21C2BF0F500ED84E0 /* JiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiViewController.h; sourceTree = "<group>"; };
+		EA4C7DE31C2BF0F500ED84E0 /* JiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiViewController.m; sourceTree = "<group>"; };
+		EA4C7DE41C2BF0F500ED84E0 /* JiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JiViewController.xib; sourceTree = "<group>"; };
+		EA4C7DE71C2BF11B00ED84E0 /* LiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiaoViewController.h; sourceTree = "<group>"; };
+		EA4C7DE81C2BF11B00ED84E0 /* LiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiaoViewController.m; sourceTree = "<group>"; };
+		EA4C7DE91C2BF11B00ED84E0 /* LiaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiaoViewController.xib; sourceTree = "<group>"; };
+		EA4C7DEC1C2BF13300ED84E0 /* HeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeiViewController.h; sourceTree = "<group>"; };
+		EA4C7DED1C2BF13300ED84E0 /* HeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeiViewController.m; sourceTree = "<group>"; };
+		EA4C7DEE1C2BF13300ED84E0 /* HeiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4C7D701C2BE4B300ED84E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4C7D6A1C2BE4B300ED84E0 = {
+			isa = PBXGroup;
+			children = (
+				EA4C7D751C2BE4B300ED84E0 /* TabNavigation */,
+				EA4C7D741C2BE4B300ED84E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4C7D741C2BE4B300ED84E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7D731C2BE4B300ED84E0 /* TabNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4C7D751C2BE4B300ED84E0 /* TabNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7DCC1C2BEF3900ED84E0 /* tabicons */,
+				EA4C7D791C2BE4B300ED84E0 /* AppDelegate.h */,
+				EA4C7D7A1C2BE4B300ED84E0 /* AppDelegate.m */,
+				EA4C7DE21C2BF0F500ED84E0 /* JiViewController.h */,
+				EA4C7DE31C2BF0F500ED84E0 /* JiViewController.m */,
+				EA4C7DE41C2BF0F500ED84E0 /* JiViewController.xib */,
+				EA4C7DE71C2BF11B00ED84E0 /* LiaoViewController.h */,
+				EA4C7DE81C2BF11B00ED84E0 /* LiaoViewController.m */,
+				EA4C7DE91C2BF11B00ED84E0 /* LiaoViewController.xib */,
+				EA4C7DEC1C2BF13300ED84E0 /* HeiViewController.h */,
+				EA4C7DED1C2BF13300ED84E0 /* HeiViewController.m */,
+				EA4C7DEE1C2BF13300ED84E0 /* HeiViewController.xib */,
+				EA4C7D821C2BE4B300ED84E0 /* Assets.xcassets */,
+				EA4C7D841C2BE4B300ED84E0 /* LaunchScreen.storyboard */,
+				EA4C7D871C2BE4B300ED84E0 /* Info.plist */,
+				EA4C7D761C2BE4B300ED84E0 /* Supporting Files */,
+			);
+			path = TabNavigation;
+			sourceTree = "<group>";
+		};
+		EA4C7D761C2BE4B300ED84E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7D771C2BE4B300ED84E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4C7DCC1C2BEF3900ED84E0 /* tabicons */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C7DCD1C2BEF3900ED84E0 /* Hei.png */,
+				EA4C7DCE1C2BEF3900ED84E0 /* Hei@2x.png */,
+				EA4C7DCF1C2BEF3900ED84E0 /* Hei@3x.png */,
+				EA4C7DD01C2BEF3900ED84E0 /* Ji.png */,
+				EA4C7DD11C2BEF3900ED84E0 /* Ji@2x.png */,
+				EA4C7DD21C2BEF3900ED84E0 /* Ji@3x.png */,
+				EA4C7DD31C2BEF3900ED84E0 /* Liao.png */,
+				EA4C7DD41C2BEF3900ED84E0 /* Liao@2x.png */,
+				EA4C7DD51C2BEF3900ED84E0 /* Liao@3x.png */,
+			);
+			path = tabicons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4C7D721C2BE4B300ED84E0 /* TabNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4C7D8A1C2BE4B300ED84E0 /* Build configuration list for PBXNativeTarget "TabNavigation" */;
+			buildPhases = (
+				EA4C7D6F1C2BE4B300ED84E0 /* Sources */,
+				EA4C7D701C2BE4B300ED84E0 /* Frameworks */,
+				EA4C7D711C2BE4B300ED84E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabNavigation;
+			productName = TabNavigation;
+			productReference = EA4C7D731C2BE4B300ED84E0 /* TabNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4C7D6B1C2BE4B300ED84E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EA4C7D721C2BE4B300ED84E0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA4C7D6E1C2BE4B300ED84E0 /* Build configuration list for PBXProject "TabNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4C7D6A1C2BE4B300ED84E0;
+			productRefGroup = EA4C7D741C2BE4B300ED84E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4C7D721C2BE4B300ED84E0 /* TabNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4C7D711C2BE4B300ED84E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C7DF01C2BF13300ED84E0 /* HeiViewController.xib in Resources */,
+				EA4C7DD91C2BEF3900ED84E0 /* Hei.png in Resources */,
+				EA4C7DDD1C2BEF3900ED84E0 /* Ji@2x.png in Resources */,
+				EA4C7DE11C2BEF3900ED84E0 /* Liao@3x.png in Resources */,
+				EA4C7DDF1C2BEF3900ED84E0 /* Liao.png in Resources */,
+				EA4C7DDC1C2BEF3900ED84E0 /* Ji.png in Resources */,
+				EA4C7DDA1C2BEF3900ED84E0 /* Hei@2x.png in Resources */,
+				EA4C7DDE1C2BEF3900ED84E0 /* Ji@3x.png in Resources */,
+				EA4C7DE01C2BEF3900ED84E0 /* Liao@2x.png in Resources */,
+				EA4C7D861C2BE4B300ED84E0 /* LaunchScreen.storyboard in Resources */,
+				EA4C7D831C2BE4B300ED84E0 /* Assets.xcassets in Resources */,
+				EA4C7DDB1C2BEF3900ED84E0 /* Hei@3x.png in Resources */,
+				EA4C7DEB1C2BF11B00ED84E0 /* LiaoViewController.xib in Resources */,
+				EA4C7DE61C2BF0F500ED84E0 /* JiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4C7D6F1C2BE4B300ED84E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C7DE51C2BF0F500ED84E0 /* JiViewController.m in Sources */,
+				EA4C7DEF1C2BF13300ED84E0 /* HeiViewController.m in Sources */,
+				EA4C7D7B1C2BE4B300ED84E0 /* AppDelegate.m in Sources */,
+				EA4C7D781C2BE4B300ED84E0 /* main.m in Sources */,
+				EA4C7DEA1C2BF11B00ED84E0 /* LiaoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4C7D841C2BE4B300ED84E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4C7D851C2BE4B300ED84E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4C7D881C2BE4B300ED84E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA4C7D891C2BE4B300ED84E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4C7D8B1C2BE4B300ED84E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.TabNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA4C7D8C1C2BE4B300ED84E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.TabNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4C7D6E1C2BE4B300ED84E0 /* Build configuration list for PBXProject "TabNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4C7D881C2BE4B300ED84E0 /* Debug */,
+				EA4C7D891C2BE4B300ED84E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4C7D8A1C2BE4B300ED84E0 /* Build configuration list for PBXNativeTarget "TabNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4C7D8B1C2BE4B300ED84E0 /* Debug */,
+				EA4C7D8C1C2BE4B300ED84E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4C7D6B1C2BE4B300ED84E0 /* Project object */;
+}

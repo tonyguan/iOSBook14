@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModalViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="fv6-F2-3es">
+                                <rect key="frame" x="229" y="103" width="143" height="324"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z12-2A-eCU">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Full Screen"/>
+                                        <connections>
+                                            <segue destination="2Gc-IW-bQV" kind="presentation" modalPresentationStyle="fullScreen" id="TvT-Mv-gUp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ON-we-CZu">
+                                        <rect key="frame" x="0.0" y="96" width="143" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Form Sheet"/>
+                                        <connections>
+                                            <segue destination="2Gc-IW-bQV" kind="presentation" modalPresentationStyle="formSheet" id="5fj-90-f2r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJE-pO-5I0">
+                                        <rect key="frame" x="0.0" y="192" width="143" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Page Sheet"/>
+                                        <connections>
+                                            <segue destination="2Gc-IW-bQV" kind="presentation" modalPresentationStyle="pageSheet" id="Ru5-8k-D1u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-tI-dUP">
+                                        <rect key="frame" x="0.0" y="288" width="143" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Current Context"/>
+                                        <connections>
+                                            <action selector="onclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OQw-g3-GgQ"/>
+                                            <segue destination="2Gc-IW-bQV" kind="presentation" modalPresentationStyle="currentContext" id="23u-Xk-mvO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fv6-F2-3es" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Rg-7X-nwp"/>
+                            <constraint firstItem="fv6-F2-3es" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="83" id="bUK-l7-pqB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="312"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="Jha-Sd-bvI">
+            <objects>
+                <viewController id="I7V-9f-a3k" customClass="ModalViewController" customModule="ModalViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K2a-U0-MGf"/>
+                        <viewControllerLayoutGuide type="bottom" id="NDA-DD-zq2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0X8-Ik-giM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C97-6f-dtj">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C97-6f-dtj" firstAttribute="top" secondItem="K2a-U0-MGf" secondAttribute="bottom" id="3mo-Ii-9iy"/>
+                            <constraint firstAttribute="trailing" secondItem="C97-6f-dtj" secondAttribute="trailing" id="5Jt-bK-YcB"/>
+                            <constraint firstItem="C97-6f-dtj" firstAttribute="leading" secondItem="0X8-Ik-giM" secondAttribute="leading" id="BDw-RQ-0Nc"/>
+                            <constraint firstItem="C97-6f-dtj" firstAttribute="bottom" secondItem="NDA-DD-zq2" secondAttribute="top" id="vtg-oB-TPs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JAx-IH-MmT">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="M0j-dr-mhA">
+                            <connections>
+                                <action selector="cancel:" destination="I7V-9f-a3k" id="0s4-j1-fcm"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="XZ6-QJ-QiZ">
+                            <connections>
+                                <action selector="save:" destination="I7V-9f-a3k" id="p7H-uT-9qh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NRe-kv-aPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2241" y="312"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rRZ-gd-gbx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Gc-IW-bQV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dAn-yz-ueZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I7V-9f-a3k" kind="relationship" relationship="rootViewController" id="vcE-Ys-yqP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34t-AX-BS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505" y="312"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="23u-Xk-mvO"/>
+    </inferredMetricsTieBreakers>
+</document>

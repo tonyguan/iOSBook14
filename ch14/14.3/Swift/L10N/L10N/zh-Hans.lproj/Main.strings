@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Stay hungry. Stay foolish."; ObjectID = "Jm5-ZY-lQW"; */
+"Jm5-ZY-lQW.text" = "求知若渴，虚心若愚。";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Ox1-Bt-JdE"; */
+"Ox1-Bt-JdE.title" = "标题";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "QIq-hN-ajt"; */
+"QIq-hN-ajt.placeholder" = "搜索";
+
+/* Class = "UILabel"; text = "Your Name:"; ObjectID = "e88-1j-Aqc"; */
+"e88-1j-Aqc.text" = "您的名字:";
