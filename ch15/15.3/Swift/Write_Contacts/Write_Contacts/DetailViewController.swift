@@ -58,7 +58,7 @@ class DetailViewController: UITableViewController {
                 } else if emailProperty.label == CNLabelHome {
                     self.txtHomeEmail.text = emailProperty.value as? String
                 } else {
-                    print("其它Email : \(emailProperty.value)")
+                    print("其他Email : \(emailProperty.value)")
                 }
             }
             
@@ -73,7 +73,7 @@ class DetailViewController: UITableViewController {
                 } else if phoneNumberProperty.label == CNLabelPhoneNumberiPhone {
                     self.txtIPhone.text = phoneNumber.stringValue
                 } else {
-                    print("其它电话 : \(phoneNumber.stringValue)")
+                    print("其他电话 : \(phoneNumber.stringValue)")
                 }
             }
             //取得个人图片

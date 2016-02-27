@@ -48,7 +48,7 @@
             } else if ([emailProperty.label isEqualToString:CNLabelHome]) {
                 [self.lblHomeEmail setText:emailProperty.value];
             } else {
-                NSLog(@"%@: %@", @"其它Email", emailProperty.value);
+                NSLog(@"%@: %@", @"其他Email", emailProperty.value);
             }
         }
         
@@ -63,7 +63,7 @@
             } else if ([phoneNumberProperty.label isEqualToString:CNLabelPhoneNumberiPhone]) {
                 [self.lblIPhone setText:phoneNumber.stringValue];
             } else {
-                NSLog(@"%@: %@", @"其它电话", phoneNumber.stringValue);
+                NSLog(@"%@: %@", @"其他电话", phoneNumber.stringValue);
             }
         }
         

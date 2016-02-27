@@ -35,8 +35,8 @@ class ViewController: UIViewController {
                     NSLog("iPhone 6 设备")
                 } else if (iOSDeviceScreenSize.height == 736) {//iPhone 6/6s plus
                     NSLog("iPhone 6 plus 设备")
-                } else {//iPhone4s等其它设备
-                    NSLog("iPhone4s等其它设备")
+                } else {//iPhone4s等其他设备
+                    NSLog("iPhone4s等其他设备")
                 }
             }
             if (iOSDeviceScreenSize.width > iOSDeviceScreenSize.height) {//横屏情况
@@ -46,8 +46,8 @@ class ViewController: UIViewController {
                     NSLog("iPhone 6 设备")
                 } else if (iOSDeviceScreenSize.width == 736) {//iPhone 6/6s plus
                     NSLog("iPhone 6 plus 设备")
-                } else {//iPhone4s等其它设备
-                    NSLog("iPhone4s等其它设备")
+                } else {//iPhone4s等其他设备
+                    NSLog("iPhone4s等其他设备")
                 }
             }
         }
