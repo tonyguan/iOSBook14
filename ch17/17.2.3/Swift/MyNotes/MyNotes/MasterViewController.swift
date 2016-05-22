@@ -44,7 +44,7 @@ class MasterViewController: UITableViewController {
     //MARK: - 开始请求Web Service
     func startRequest() {
         
-        var strURL = String(format: "http://www.51work6.com/service/mynotes/WebService.php?email=%@&type=%@&action=%@", "test@51work6.com", "JSON", "query")
+        var strURL = String(format: "http://www.51work6.com/service/mynotes/WebService.php?email=%@&type=%@&action=%@", "<你的51work6.com用户邮箱>", "JSON", "query")
         strURL = strURL.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
         
         let url = NSURL(string: strURL)!

@@ -71,11 +71,11 @@ enum ActionTypes {
 
     NSString *post;
     if (action == QUERY) {//查询处理
-        post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@", @"test@51work6.com", @"JSON", @"query"];
+        post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@", @"<你的51work6.com用户邮箱>", @"JSON", @"query"];
     } else if (action == REMOVE) {//删除处理
         NSMutableDictionary *dict = self.listData[deleteRowId];
         post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@&id=%@",
-                                          @"test@51work6.com", @"JSON", @"remove", dict[@"ID"]];
+                                          @"<你的51work6.com用户邮箱>", @"JSON", @"remove", dict[@"ID"]];
     }
 
     NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding];

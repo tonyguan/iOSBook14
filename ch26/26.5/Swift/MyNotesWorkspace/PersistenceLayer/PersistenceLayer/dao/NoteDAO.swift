@@ -41,7 +41,7 @@ public let	DaoModifyFinishedNotification	    = "DaoModifyFinishedNotification"
 public let	DaoModifyFailedNotification	        = "DaoModifyFailedNotification"
 
 let WEBSERVICE_URL = "http://www.51work6.com/service/mynotes/WebService.php"
-let USER_ID = "test@51work6.com"
+let USER_ID = "<你的51work6.com用户邮箱>"
 
 public class NoteDAO: NSObject {
 

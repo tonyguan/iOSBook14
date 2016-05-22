@@ -72,7 +72,7 @@ class DetailViewController: UIViewController {
         let id = dict["ID"] as! NSNumber
         
         //设置参数
-        let post = NSString(format: "email=%@&type=%@&action=%@&date=%@&content=%@&id=%@", "test@51work6.com", "JSON", "modify", dateStr, self.txtView.text, id)
+        let post = NSString(format: "email=%@&type=%@&action=%@&date=%@&content=%@&id=%@", "<你的51work6.com用户邮箱>", "JSON", "modify", dateStr, self.txtView.text, id)
         let postData: NSData = post.dataUsingEncoding(NSUTF8StringEncoding)!
         
         let strURL = "http://www.51work6.com/service/mynotes/WebService.php"

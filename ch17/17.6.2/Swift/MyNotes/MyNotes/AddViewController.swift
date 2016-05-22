@@ -55,7 +55,7 @@ class AddViewController: UIViewController, UITextViewDelegate {
         let dateStr = dateFormatter.stringFromDate(date)
 
         //设置参数
-        let post = NSString(format: "email=%@&type=%@&action=%@&date=%@&content=%@", "test@51work6.com", "JSON", "add", dateStr, self.txtView.text)
+        let post = NSString(format: "email=%@&type=%@&action=%@&date=%@&content=%@", "<你的51work6.com用户邮箱>", "JSON", "add", dateStr, self.txtView.text)
         let postData: NSData = post.dataUsingEncoding(NSUTF8StringEncoding)!
 
         let strURL = "http://www.51work6.com/service/mynotes/WebService.php"

@@ -63,12 +63,12 @@ class MasterViewController: UITableViewController {
         var post = ""
         if action == ActionTypes.QUERY {
             //查询处理
-            post = String(format: "email=%@&type=%@&action=%@", "test@51work6.com", "JSON", "query")
+            post = String(format: "email=%@&type=%@&action=%@", "<你的51work6.com用户邮箱>", "JSON", "query")
         } else if action == ActionTypes.REMOVE {
             //删除处理
             let dict = self.listData[deleteRowId] as! NSMutableDictionary
             let id = dict.objectForKey("ID") as! NSNumber
-            post = String(format: "email=%@&type=%@&action=%@&id=%@", "test@51work6.com", "JSON", "remove", id)
+            post = String(format: "email=%@&type=%@&action=%@&id=%@", "<你的51work6.com用户邮箱>", "JSON", "remove", id)
         }
         let postData: NSData = post.dataUsingEncoding(NSUTF8StringEncoding)!
 

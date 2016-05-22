@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let downloadStrPath = downloadsDir.stringByAppendingString("/test1.jpg")
         let downloadURLPath = NSURL.fileURLWithPath(downloadStrPath)
 
-        let strURL = String(format: "http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", "test@51work6.com")
+        let strURL = String(format: "http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", "<你的51work6.com用户邮箱>")
 
         let destination: (NSURL, NSHTTPURLResponse) -> (NSURL) = {
             (temporaryUrl, response) in

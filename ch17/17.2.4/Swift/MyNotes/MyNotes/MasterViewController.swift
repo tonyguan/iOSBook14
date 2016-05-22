@@ -48,7 +48,7 @@ class MasterViewController: UITableViewController {
         
         let url = NSURL(string: strURL)!
 
-        let post = NSString(format: "email=%@&type=%@&action=%@", "test@51work6.com", "JSON", "query")
+        let post = NSString(format: "email=%@&type=%@&action=%@", "<你的51work6.com用户邮箱>", "JSON", "query")
         let postData: NSData = post.dataUsingEncoding(NSUTF8StringEncoding)!
         
         let request = NSMutableURLRequest(URL: url)

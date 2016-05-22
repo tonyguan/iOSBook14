@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         self.label.text = "上传进度"
         self.progressView.progress = 0.0
 
-        let uploadStrURL = String(format: "http://www.51work6.com/service/upload.php?email=%@", "test@51work6.com")
+        let uploadStrURL = String(format: "http://www.51work6.com/service/upload.php?email=%@", "<你的51work6.com用户邮箱>")
 
         let fileURL = NSBundle.mainBundle().URLForResource("test2", withExtension: "jpg")
 
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         let downloadStrPath = downloadsDir.stringByAppendingString("/test1.jpg")
         let downloadURLPath = NSURL.fileURLWithPath(downloadStrPath)
 
-        let strURL = String(format: "http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", "test@51work6.com")
+        let strURL = String(format: "http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", "<你的51work6.com用户邮箱>")
 
         let destination: (NSURL, NSHTTPURLResponse) -> (NSURL) = {
             (temporaryUrl, response) in

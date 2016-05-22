@@ -36,7 +36,7 @@
 - (IBAction)onClick:(id)sender {
     
     NSString *uploadStrURL = @"http://www.51work6.com/service/upload.php";
-    NSDictionary *params = @{@"email" : @"test@51work6.com"};
+    NSDictionary *params = @{@"email" : @"<你的51work6.com用户邮箱>"};
     
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"test2" ofType:@"jpg"];
     
@@ -74,7 +74,7 @@
 
 - (void)download {
 
-    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", @"test@51work6.com"];
+    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", @"<你的51work6.com用户邮箱>"];
 
     NSURL *url = [NSURL URLWithString:strURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];

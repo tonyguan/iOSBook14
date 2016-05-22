@@ -36,7 +36,7 @@
 
 - (IBAction)onClick:(id)sender {
 
-    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", @"test@51work6.com"];
+    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/download.php?email=%@&FileName=test1.jpg", @"<你的51work6.com用户邮箱>"];
 
     NSURL *url = [NSURL URLWithString:strURL];
 

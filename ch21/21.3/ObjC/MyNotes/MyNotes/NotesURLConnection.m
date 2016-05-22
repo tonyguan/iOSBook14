@@ -24,7 +24,7 @@
 
     NSURL *url = [NSURL URLWithString:strURL];
 
-    NSString *post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@", @"test@51work6.com", @"JSON", @"query"];
+    NSString *post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@", @"<你的51work6.com用户邮箱>", @"JSON", @"query"];
     NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding];
 
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];

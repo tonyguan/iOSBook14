@@ -87,7 +87,7 @@
     
     //设置参数
     NSString *post = [NSString stringWithFormat:@"email=%@&type=%@&action=%@&date=%@&content=%@&id=%@",
-                                                @"test@51work6.com", @"JSON", @"modify", dateStr, self.txtView.text, _id];
+                                                @"<你的51work6.com用户邮箱>", @"JSON", @"modify", dateStr, self.txtView.text, _id];
     NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding];
     
     NSString *strURL = @"http://www.51work6.com/service/mynotes/WebService.php";

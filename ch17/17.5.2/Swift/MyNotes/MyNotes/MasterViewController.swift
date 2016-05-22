@@ -46,7 +46,7 @@ class MasterViewController: UITableViewController {
     func startRequest() {
 
         let strURL = "http://www.51work6.com/service/mynotes/WebService.php"
-        let params = ["email": "test@51work6.com", "type": "JSON", "action": "query"]
+        let params = ["email": "<你的51work6.com用户邮箱>", "type": "JSON", "action": "query"]
 
         Alamofire.request(.GET, strURL, parameters: params)
             .responseJSON {
