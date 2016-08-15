@@ -67,9 +67,7 @@ class ScheduleDAOTests: XCTestCase {
         //断言 查询记录数为1
         XCTAssert(list.count == 502)
         
-        //Swift1.1 -> Swift1.2修改点 start
-        let resSchedule:Schedule = list[501] as! Schedule  //as改为as!
-        //Swift1.1 -> Swift1.2修改点 end
+        let resSchedule:Schedule = list[501] as! Schedule
         
         //断言
         XCTAssertEqual(self.theSchedule!.GameDate!, resSchedule.GameDate!)

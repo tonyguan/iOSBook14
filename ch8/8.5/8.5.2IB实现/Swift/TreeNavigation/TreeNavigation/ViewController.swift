@@ -22,8 +22,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
+//        self.tableView.delegate = self
+//        self.tableView.dataSource = self
         
         let plistPath = NSBundle.mainBundle().pathForResource("provinces_cities", ofType: "plist")
         

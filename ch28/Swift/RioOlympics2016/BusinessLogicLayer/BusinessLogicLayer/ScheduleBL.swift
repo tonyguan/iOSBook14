@@ -17,7 +17,7 @@ import PersistenceLayer
 
 public class ScheduleBL: NSObject {
     
-    //查询所用数据方法
+    //查询所有数据方法
     public func readData() -> NSMutableDictionary {
         
         let scheduleDAO = ScheduleDAO.sharedInstance

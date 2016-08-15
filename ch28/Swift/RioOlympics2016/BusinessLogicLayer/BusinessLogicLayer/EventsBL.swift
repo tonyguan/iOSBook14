@@ -17,7 +17,7 @@ import PersistenceLayer
 
 public class EventsBL: NSObject {
     
-   //查询所用数据方法
+   //查询所有数据方法
     public func readData() -> NSMutableArray {        
         let dao = EventsDAO.sharedInstance
         let list  = dao.findAll()

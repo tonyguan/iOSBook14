@@ -14,6 +14,7 @@
 		EA41C6D81C35290400C93B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA41C6D71C35290400C93B3E /* Assets.xcassets */; };
 		EA41C6DB1C35290400C93B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41C6D91C35290400C93B3E /* LaunchScreen.storyboard */; };
 		EAB9C2A31C42D23C00845FA3 /* NSNumber+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9C2A21C42D23C00845FA3 /* NSNumber+Message.swift */; };
+		EAC648251C97C5DA00527464 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0E4A5E1C4654BA00EE428E /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC648251C97C5DA00527464 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

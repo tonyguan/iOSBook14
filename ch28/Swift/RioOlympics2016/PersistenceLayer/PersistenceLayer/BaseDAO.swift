@@ -26,7 +26,7 @@ public class BaseDAO: NSObject {
         DBHelper.initDB()
     }
     
-    //打开SQLite数据库 true 打开成功 false 打开失败
+    //打开SQLite数据库，返回值为true打开成功，false打开失败
     func openDB()->Bool {
         
         //数据文件全路径

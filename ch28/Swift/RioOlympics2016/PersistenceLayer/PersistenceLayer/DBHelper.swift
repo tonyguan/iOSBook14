@@ -43,7 +43,7 @@ public class DBHelper {
 
         let configTable = NSDictionary(contentsOfFile: configTablePath!)
 
-        //从配置文件获得数据版本号
+        //从配置文件获得数据库版本号
         var dbConfigVersion = configTable?["DB_VERSION"] as? NSNumber
         if (dbConfigVersion == nil) {
             dbConfigVersion = 0

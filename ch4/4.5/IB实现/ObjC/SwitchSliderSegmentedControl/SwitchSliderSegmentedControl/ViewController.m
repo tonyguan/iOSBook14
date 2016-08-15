@@ -61,7 +61,7 @@
 - (IBAction)sliderValueChange:(id)sender {
     UISlider *slider = (UISlider *)sender;
     int progressAsInt = (int)(slider.value);
-    NSString *newText = [[NSString alloc]initWithFormat:@"%d",progressAsInt];
+    NSString *newText = [[NSString alloc]initWithFormat:@"%i",progressAsInt];
     NSLog(@"滑块的值 : %@", newText);
     self.sliderValue.text = newText;
 }

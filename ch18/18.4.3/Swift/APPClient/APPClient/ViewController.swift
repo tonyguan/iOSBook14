@@ -71,7 +71,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.lblRegion.text = "围栏内"
         case .Outside:
             self.lblRegion.text = "围栏外"
-        default:
+        case .Unknown:
             self.lblRegion.text = "未知"
         }
     }

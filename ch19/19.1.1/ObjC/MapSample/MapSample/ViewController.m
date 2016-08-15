@@ -56,7 +56,7 @@
             self.mapView.mapType = MKMapTypeHybrid;
             break;
         default:
-            self.mapView.mapType = MKMapTypeStandard;
+            self.mapView.mapType = MKMapTypeHybridFlyover;
     }
 }
 

@@ -76,7 +76,7 @@
         case CLRegionStateOutside:
             self.lblRegion.text = @"围栏外";
             break;
-        default:
+        case CLRegionStateUnknown:
             self.lblRegion.text = @"未知";
     }
 }

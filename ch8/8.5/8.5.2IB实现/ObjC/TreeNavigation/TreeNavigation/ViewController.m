@@ -27,8 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
+//    self.tableView.delegate = self;
+//    self.tableView.dataSource = self;
     
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"provinces_cities" ofType:@"plist"];
     

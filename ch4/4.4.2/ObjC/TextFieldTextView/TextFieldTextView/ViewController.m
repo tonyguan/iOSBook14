@@ -53,7 +53,7 @@
     
     [self.view addSubview:textView];
     
-    //labelName标签与textField之间的距离
+    //labelName标签与textView之间的距离
     CGFloat labelAbstractTextViewSpace = 30;
     UILabel* labelAbstract = [[UILabel alloc] initWithFrame:CGRectMake(textView.frame.origin.x, textView.frame.origin.y - labelAbstractTextViewSpace, 103, 21)];
     labelAbstract.text = @"Abstract:";

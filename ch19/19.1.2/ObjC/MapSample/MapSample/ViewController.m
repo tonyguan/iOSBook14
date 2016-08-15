@@ -67,8 +67,8 @@
     //设置3D相机
     MKMapCamera* mapCamera = [MKMapCamera camera];
     mapCamera.centerCoordinate = CLLocationCoordinate2DMake(40.002240, 116.323328);
-    mapCamera.pitch = 45;
-    mapCamera.altitude = 500;
+    mapCamera.pitch = 60;
+    mapCamera.altitude = 1000;
     mapCamera.heading = 45;
     
     //设置地图视图的camera属性
